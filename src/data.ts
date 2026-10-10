@@ -1,6 +1,6 @@
 import placeRecords from './places.json';
 import raw from './admin.json';
-export type Category='commercial'|'university'|'campus'|'station'|'shopping'|'park'|'landmark';
+export type Category='commercial'|'university'|'campus'|'station'|'shopping'|'park'|'landmark'|'residential';
 export type Candidate = {id:string;name:string;provinceId:string;path:string;kind:'admin'|'spot'|'custom';districtIds:string[];aliases:string[];category?:Category;location?:{lat:number;lng:number;address:string;source:string};};
 export type District = {id:string;name:string;parentId:string};
 export type Province = {id:string;name:string;officialName?:string;districts:District[]};

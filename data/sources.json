@@ -27,12 +27,15 @@
     "source": "https://www.openstreetmap.org/copyright",
     "geocoder": "https://nominatim.openstreetmap.org",
     "license": "ODbL-1.0",
-    "count": 213,
-    "located": 213,
+    "count": 215,
+    "located": 215,
     "campuses": 38,
     "universityAreas": 32,
     "verification": "Every representative coordinate tested against associated district polygons. Campus and nearby commercial areas are separate candidates. Incorrect same-name geocoding hits were manually rejected.",
     "publicData": "data/places.json",
-    "sha256": "9abcbac9c7ec233378c7556efce41c1252c0261838afb19f825c9f983b7be67d"
+    "sha256": "7657c3bbd61b281899d9f83d2a0115f02e7fd1081c47c29b99f3bbcd1f451dcc",
+    "updated": "2026-10-11",
+    "apartments": 2,
+    "additionalSource": "https://apt.zippoom.com"
   }
 }

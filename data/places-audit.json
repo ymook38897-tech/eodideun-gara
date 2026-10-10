@@ -3200,5 +3200,37 @@
       "3611000000"
     ],
     "checked": "2026-10-10"
+  },
+  {
+    "id": "s:46:백년가아파트",
+    "name": "백년가아파트",
+    "query": "백년가아파트",
+    "matchedName": "백년가뷰",
+    "matchedType": "apartment",
+    "source": "https://apt.zippoom.com/%EB%B6%80%EB%8F%99%EC%82%B0/%EC%A0%84%EB%82%A8-%ED%95%A8%ED%8F%89%EA%B5%B0-%ED%95%A8%ED%8F%89%EC%9D%8D-%EB%B0%B1%EB%85%84%EA%B0%80%EB%B7%B0/o010sv",
+    "address": "전남광주통합특별시 함평군 함평읍 영수길 28",
+    "lat": 35.0584706740975,
+    "lng": 126.516938580702,
+    "districtIds": [
+      "1282000000"
+    ],
+    "checked": "2026-10-11",
+    "verification": "Public apartment detail address and JSON-LD GeoCoordinates; requested display name retained with building-name aliases."
+  },
+  {
+    "id": "s:46:라포엠아파트",
+    "name": "라포엠아파트",
+    "query": "라포엠아파트",
+    "matchedName": "함평라포엠",
+    "matchedType": "apartment",
+    "source": "https://apt.zippoom.com/%EB%B6%80%EB%8F%99%EC%82%B0/%EC%A0%84%EB%82%A8-%ED%95%A8%ED%8F%89%EA%B5%B0-%ED%95%A8%ED%8F%89%EC%9D%8D-%ED%95%A8%ED%8F%89%EB%9D%BC%ED%8F%AC%EC%97%A0%EC%95%84%ED%8C%8C%ED%8A%B8/9brzfk",
+    "address": "전남광주통합특별시 함평군 함평읍 들샘길 50",
+    "lat": 35.0608170274339,
+    "lng": 126.520508776759,
+    "districtIds": [
+      "1282000000"
+    ],
+    "checked": "2026-10-11",
+    "verification": "Public apartment detail address and JSON-LD GeoCoordinates; requested display name retained with building-name aliases."
   }
 ]
