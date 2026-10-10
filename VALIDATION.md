@@ -1,6 +1,6 @@
 # 자체 검증 기록
 
-기준: 2026-10-10, 한국 시간. 배포 완료 후 실서비스 항목을 추가합니다.
+기준: 2026-10-10, 한국 시간. 공개 서비스 배포·접속 검증 완료.
 
 ## 1차 — 기능·데이터
 
@@ -27,7 +27,12 @@
 - TypeScript strict + Vite production build, ESLint 및 18개 테스트 실행.
 - GitHub Pages는 GitHub Actions 배포 소스로 설정, push 시 lint/test/build 자동 실행.
 - 상대 assets 경로(`base: './'`) 및 쿼리스트링 결과 URL 사용.
-- 실서비스 응답, 직접 결과 URL/새로고침, assets, 콘솔 검증 결과는 배포 뒤 추가합니다.
+- GitHub Actions 최초 배포 및 모바일 수정판 배포 모두 success. 최종 앱 커밋: `259749e7a329e1dc1bfb37ad38490ff70a09d213`. [자동 검증·배포 실행](https://github.com/ymook38897-tech/eodideun-gara/actions/runs/38057360196).
+- 실제 공개 서비스 https://ymook38897-tech.github.io/eodideun-gara/ HTTP 200.
+- 실서비스 JavaScript `index-Jl2L8Uxr.js` 272845 bytes 및 CSS `index-DpifQr55.css` 24048 bytes 모두 HTTP 200. 로컬 최종 빌드 산출물과 이름·크기 일치.
+- 공개 URL `?result=s%3A11%3A%ED%99%8D%EB%8C%80` 직접 접근 및 새로고침에서 홍대 결과 확인. 복사된 텍스트와 공개 URL 일치.
+- 실제 Chrome에서 공개 페이지 렌더링·마스코트·지역 선택 및 결과 화면 확인. 배포 주소에 해당하는 새 콘솔 오류는 관측되지 않음(기존 로컬 개발/확장 메시지와 분리).
+- 로컬 production preview의 1280px PC, 320px 및 390px 모바일 시각 검증. 320px 제목 레이아웃 보완 후 재검증. 브라우저 캡처는 도구 내 표시되었으나 파일로 저장하는 작업은 실행 환경의 EPERM 제한으로 완료하지 못함.
 
 ## 검증 한계
 
