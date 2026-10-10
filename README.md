@@ -1,69 +1,60 @@
-# 어디든 가라 — 유배지 발령센터
-
-담당자 감자가 대한민국 어딘가로 발령해 드립니다. 국가기관과 무관한 무료 정적 웹 앱입니다.
+# 어디든 가라 — 지도 찍고 발령받아
 
 서비스: https://ymook38897-tech.github.io/eodideun-gara/
 
 저장소: https://github.com/ymook38897-tech/eodideun-gara
 
-## 실행
+실제 대한민국 지도를 눌러 놀러 갈 곳을 담고, 감자 공무원에게 마지막 결정을 맡기는 정적 웹 앱입니다.
 
-Node.js 24 권장. `npm ci`, `npm run dev`. 프로덕션: `npm run build`, `npm run preview`.
+## 실행과 기술
 
-React 19 + TypeScript + Vite 7 + Tailwind CSS 4 + Lucide SVG. 서버·유료 API·외부 추적 도구 없이 실행합니다. 마스코트는 직접 제작한 SVG, 효과음은 Web Audio입니다.
+Node.js 24 권장. `npm ci`, `npm run dev`. 검사: `npm run lint`, `npm test`, `npm run build`. 프로덕션 미리보기: `npm run preview`.
 
-## 기능
+React 19 + TypeScript strict + Vite 7 + Tailwind CSS 4 + Leaflet/React Leaflet + Lucide SVG. 직접 만든 SVG 감자, Web Audio 효과음, localStorage. 서버·유료 API·키 없이 동작합니다. 행정 경계와 장소 데이터는 앱과 함께 배포합니다. 확대 11 이상에서 OSM 표준 거리 타일을 표시합니다.
 
-- 기존 17개 지역 분류, 공식 최하위 행정구역 후보 256곳
-- 상권·역세권·관광명소 146곳(서울 73곳), 행정구역과 분리된 추첨 목록
-- 전국/시도/시군구/상권 선택, 부분 선택 체크박스, 중복 없는 후보 칩
-- 부분 일치·별칭·초성 검색, 직접 입력 100곳까지, 개별 삭제와 전체 비우기
-- 검증된 localStorage 저장·복원, 최근 30회 기록, 최근 5회 화면 표시
-- 후보별 동등 확률, 지역 분류별 균형 모드, 최근 결과 제외
-- 보안 난수, 결과 확정 후 감속 애니메이션, 재추첨 중복 실행 방지
-- 결과 URL 직접 접근·복원, Web Share API 및 복사, 카카오맵 검색 링크
-- 모바일 별도 배치, 키보드 조작, 라이브 결과 안내, 동작 감소 설정 존중
-- 기본 꺼짐 효과음, 마우스를 보는 감자와 숨겨진 민원 응답
+## 지도와 추첨
 
-## 데이터 출처와 기준
+- 대한민국 실제 GeoJSON 경계: 17개 익숙한 탐색 분류, 최하위 시·군·구 256개.
+- 한 번 클릭은 해당 범위의 후보 선택/해제, 이름 옆 ↗는 확대. 경로와 전국 복귀, 휠·드래그·터치 확대를 지원합니다.
+- 도시권은 먼저 큰 육지 영역으로 확대합니다. `섬까지 전체 보기`는 원래 좌표의 전체 범위를 보여줍니다. 섬을 임의로 옮기지 않습니다.
+- 지역 확대 시 장소를 화면 좌표로 묶어 클러스터 표시하고, 더 확대하면 개별 마커가 나타납니다. 라벨은 겹치면 연결선과 함께 이동합니다.
+- 기본 `놀러 갈 곳 뽑기`: 전국 실제 장소 **213곳**, 서울 91곳. 캠퍼스 38곳과 대학가 32곳을 분리하고 상권·역세권·쇼핑·공원·명소를 제공합니다.
+- 인하대학교, 인하대 후문 상권, 인하대 정문 일대, 인하대역은 별도 ID·좌표·유형입니다. 필수 인천 장소와 요청한 전국 대학가를 포함합니다.
+- 보조 `행정구역 뽑기`: 공식 최하위 행정구역 **256곳**. 일반구가 있는 부모 시 13개는 선택 범위로 유지하고 별도 당첨 후보로 세지 않습니다.
+- 지도·검색·계층 선택·후보 칩이 같은 ID 집합을 사용합니다. 상위 범위와 장소가 겹쳐도 중복 후보가 생기지 않습니다. 추첨 모드 간 후보도 섞이지 않습니다.
+- 즉시 검색, 부분 일치·별칭·초성, 검색한 장소로 지도 이동, 현재 선택 장소만 지도에 표시, 장소 유형 표시 필터, 전국 전체 선택/해제.
+- 사용자 지정 장소 100개까지. 좌표를 생성하지 않고 목록에만 표시합니다. 선택과 최근 30회 결과를 안전하게 저장·복원합니다.
+- 결과 URL 복원, Web Share/복사, 카카오맵 검색 링크, 재추첨, 최근 결과 제외, 기록 초기화.
+- 과장된 지도 연출 뒤 당첨 위치로 이동하고 감자가 발표합니다. 카드가 마커를 가리지 않게 지도 중심을 조정합니다. 연출 전에 실제 결과를 확정합니다.
+- 효과음 기본 OFF, 감자 눈동자·노동조합 이스터 에그. `prefers-reduced-motion`에서는 긴 연출을 생략합니다.
+- PC 중앙 지도와 검색 측면 패널. 모바일 지도 우선, 검색·후보는 접이식 하단 패널. 검색/추첨 후 지도가 화면으로 돌아옵니다.
 
-행정구역은 [행정표준코드관리시스템](https://www.code.go.kr/stdcode/regCodeL.do)의 **법정동코드 전체자료** 공식 ZIP에서 `존재` 코드만 추출했습니다. 다운로드: 2026-10-10 (한국 시간). ZIP 내부 파일 배포 시각: **2026-10-01 09:06**. 과거 폐지 코드는 포함하지 않습니다. 시·군·구 및 일반구 269개를 `data/official-admin.json`에 보관하고 테스트에서 전수 대조합니다. 코드 전체 ZIP SHA-256은 `data/sources.json`에 기록합니다.
+## 데이터와 라이선스
 
-일반구가 있는 시 13개는 선택 계층에 남고 최종 추첨 후보에서는 빠집니다. 따라서 최하위 후보는 **256개**입니다. 세종은 하위 시군구 없이 단일 후보이며 제주의 제주시·서귀포시는 행정시입니다.
+행정코드: [행정표준코드관리시스템](https://www.code.go.kr/stdcode/regCodeL.do) 법정동코드 전체자료의 `존재` 코드, **2026-10-01 09:06 배포본**, 2026-10-10 확인. 원본 이름·코드 269개를 `data/official-admin.json`에 보관하고 전수 대조합니다. 세종 단일 후보, 제주의 행정시 2개, 인천 11개, 화성 일반구 4개를 반영했습니다. 사용자의 확정에 따라 기존 17개 분류를 유지하되 광주권·전남권의 결과에는 현재 공식 명칭 **전남광주통합특별시**를 표시합니다.
 
-사용자의 선택에 따라 기존 17개 분류를 유지했습니다. 광주광역시·전라남도는 탐색 분류로만 사용하며 현재 공식 명칭인 **전남광주통합특별시**를 결과·상세에 병기합니다. 이 두 분류를 서로 다른 현재 광역자치단체라고 주장하지 않습니다. 인천은 제물포·영종·서해·검단 등을 포함한 11개 시군구, 화성은 만세·효행·병점·동탄구를 반영합니다.
+경계: 통계청 [SGIS](https://sgis.kostat.go.kr)의 공공누리 제1유형 행정동 경계, 변경 이력을 반영한 [vuski/admdongkor 2026-07-01](https://github.com/vuski/admdongkor/tree/master/ver20260701), 이를 단순화한 [mapcn-kr 시군구 GeoJSON](https://github.com/DevMinGeonPark/mapcn-kr/blob/main/data/sgg.json). 가공물 **CC BY 4.0**. 원본 Git blob, SHA-256, 병합 방식은 `data/sources.json`, 원문 라이선스는 `data/LICENSE-boundaries.txt`에 기록했습니다. 이 앱은 256개 시군구 코드를 공식 코드와 연결하고 17개 선택 분류로 병합했습니다. 전국/시군구 지도와 섬의 원래 위·경도를 유지합니다. 행정코드와 경계의 기준일은 각각 표시하며 법적 측량용 지도가 아닙니다.
 
-상권은 법정 행정구역이 아닙니다. 이름과 연관 구를 `src/data.ts`에 별도로 관리하며 여러 구에 걸친 역세권(강남역, 사당, 신촌 등)은 `districtIds` 배열로 표현합니다. 경계를 임의 좌표로 만들지 않습니다. 부모별 숫자를 합하면 겹친 상권 때문에 총 후보 수와 다를 수 있으나 후보 자체는 유일한 ID로 한 번만 추첨됩니다.
+필수 출처 표기: 본 데이터는 통계청 통계지리정보서비스(SGIS)에서 공공누리 제1유형으로 개방한 행정동 경계를 가공한 것이며(가공: vuski/admdongkor, 단순화: mapcn-kr, 17개 분류 병합: 본 서비스), CC BY 4.0으로 배포됩니다.
 
-상권 이름·관광지의 존재와 대표 위치 확인에 사용한 공식 안내:
+장소 좌표·주소: **© OpenStreetMap contributors, ODbL 1.0**. 213개 모두 대표 좌표, 주소, 개별 OSM 원본 URL을 가집니다. 각 좌표가 해당 시군구 경계 안에 있는지 테스트합니다. 동명 건물·다른 캠퍼스로 잘못 검색된 결과는 제외하거나 본캠퍼스·역 이름으로 다시 확인했습니다. 미확인 캠퍼스 한 곳은 후보에서 제외했습니다. 개발 과정의 Nominatim 요청은 단일 프로세스, 최소 1.25초 간격, 응답 캐시로 처리했고 런타임 지오코딩은 하지 않습니다.
 
-- [서울관광재단 Visit Seoul](https://korean.visitseoul.net/attractions?curPage=1), [서울 도보관광](https://dobo.visitseoul.net/reserve/step1/list?cos_cd=99&lang=kr&type=1), [서대문구 신촌 관광 안내](https://www.sdm.go.kr/culture/attraction/sub2050.do)
-- [부산관광공사 Visit Busan](https://www.visitbusan.net/kr/index.do), [부산 공식 시티투어 노선](https://citytourbusan.com/ko/file/citytourbusan.pdf)
-- [제주관광공사 공식 관광 가이드북](https://www.visitjeju.net/pdf/Official%20Jeju%20Tourism%20Guidebook_kr.pdf), [협재 안내](https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500697), [애월 한담 안내](https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500682)
-- [한국관광공사 대한민국 구석구석](https://korean.visitkorea.or.kr) 및 각 지자체 관광 안내. 상권의 세밀한 법정 경계·영업 정보는 제공하지 않습니다.
+장소명 및 지역 소속은 `src/places.json`, 검색 일치·원본 분류·대표 지점 대조 내역은 `data/places-audit.json`에서 확인할 수 있습니다. 재배포 가능한 동일 데이터는 사이트의 [data/places.json](https://ymook38897-tech.github.io/eodideun-gara/data/places.json)에 제공합니다. 자세한 이용 조건은 `data/LICENSE-places.md`. 상권은 행정구역이 아니며 표시된 역·거리·문·정류장 등의 대표 지점은 상권 경계 또는 가게 영업 상태를 뜻하지 않습니다. 여러 구에 걸친 생활권은 `districtIds` 배열로 관리합니다.
 
-## 확률과 저장
+추가 확인에 사용한 공식 안내: [인하대학교](https://www.inha.ac.kr)의 공식 캠퍼스 안내, [순천대 찾아오시는 길](https://w1.scnu.ac.kr/SCNU/cm/cntnts/cntntsView.do?cntntsId=1121&mi=1185), [전북대학교](https://www.jbnu.ac.kr), [강원대학교 입학안내](https://admission.kangwon.ac.kr/admission/main.do), [인천투어](https://itour.incheon.go.kr/main/main.do), [Visit Seoul](https://korean.visitseoul.net), [Visit Busan](https://www.visitbusan.net), [Visit Jeju](https://www.visitjeju.net).
 
-`crypto.getRandomValues()`로 32비트 정수를 얻고 rejection sampling으로 나머지 연산 편향을 제거합니다. 기본 모드는 현재 선택 후보 N개 각각 1/N. 균형 모드는 후보가 있는 17개 탐색 분류(+직접 입력 그룹) 중 먼저 동등하게 하나를 뽑고, 그 안에서 동등하게 추첨합니다. 광주권/전남권을 각각 한 그룹으로 처리하는 정책은 UI에 설명됩니다.
+OSM 표준 타일은 현재 화면만 요청하며 원래 attribution, Referer, HTTP 캐시를 유지합니다. 대량 다운로드·오프라인 저장을 하지 않습니다. [타일 정책](https://operations.osmfoundation.org/policies/tiles/), [Nominatim 정책](https://operations.osmfoundation.org/policies/nominatim/). 표준 타일에는 SLA가 없으며 사용량이 커지면 제공자를 교체해야 합니다. 타일이 없어도 행정 경계와 장소 후보는 배포된 정적 데이터로 동작합니다.
 
-당첨을 확정한 다음 표시용 후보 순환을 실행합니다. 마지막 표시값은 확정된 당첨입니다. 0개는 안내 후 중지, 1개도 같은 절차로 진행하며 최근 결과 제외로 모두 소진되면 안내합니다. 효과음은 기본 꺼짐. 동작 감소 설정에서는 긴 연출을 생략합니다.
+## 확률과 안전한 상태
 
-후보와 기록은 해당 브라우저에만 저장됩니다. 사용자 지정 후보는 URL 공유 시 이름이 링크에 포함됩니다. 사용자 입력은 React 텍스트로 출력하며 HTML로 해석하지 않습니다. 공유 URL은 공식 ID 또는 길이 제한된 사용자 지정 이름만 복원합니다. 지도는 위치를 단정하지 않고 텍스트 검색을 엽니다.
+`crypto.getRandomValues` + rejection sampling. 기본: 현재 모드의 선택 후보 N개 각각 1/N. 균형: 후보가 있는 시도 탐색 분류를 먼저 동일 확률로 선택하고 그 안의 장소를 동일 확률로 선택합니다. 광주권·전남권을 각 그룹으로 세며 사용자 지정 후보는 별도 그룹입니다. 선택 범위의 숫자를 합산해 후보 수를 계산하지 않습니다.
 
-## 검증
+0개·1개·수백 개를 처리하고 이전 결과 제외로 모두 소진되면 안내합니다. 추첨 중 중복 실행과 후보 변경을 막습니다. 저장 데이터와 URL에서 알 수 없는 ID·손상된 JSON을 걸러내고 사용자 지정 장소에 주입된 좌표·HTML을 신뢰하지 않습니다. React 텍스트 출력으로 사용자 입력을 HTML로 실행하지 않습니다. 사용자 지정 공유 URL에는 입력한 이름이 포함됩니다.
 
-`npm test`: 공식 데이터 전수 대조, 부모 후보 제외, 예외 구조, ID 유일성, 별칭·초성, 그룹 선택, 입력 정규화, 난수 편향 제거, 모드 확률 구조, 손상된 저장값, 결과 URL 등 **18개 테스트**.
+## 검증과 배포
 
-`npm run lint`: TypeScript ESLint + React Hooks. `npm run build`: strict TypeScript 검사 + 프로덕션 번들.
+기능·데이터, PC/모바일 UI, 프로덕션 배포를 3차로 나눠 검증합니다. `npm test`: **27개 통과**. 공식 행정구역 전수 대조, 17개/256개 경계 일치, 모든 장소 좌표의 소속, 필수 대학가·인하대 분리, 중복 범위와 확률, 클러스터, 좌표 없는 사용자 지정, 검색·저장·공유 URL을 검사합니다. 린트와 strict TypeScript/프로덕션 빌드를 통과합니다. 실제 브라우저 증거와 검증 범위는 `VALIDATION.md`에 기록합니다.
 
-검증 과정과 실제 브라우저 결과는 `VALIDATION.md`에 기록합니다. CI는 push 때 lint→test→build를 통과한 산출물만 배포합니다.
+기존 무료 GitHub Pages 배포를 유지합니다. `.github/workflows/deploy.yml`이 main push 때 lint → test → build 후 산출물을 배포합니다. Vite `base: './'`와 `import.meta.env.BASE_URL`로 저장소 하위 경로의 JS/CSS/지도/데이터 주소를 처리합니다. 공유는 쿼리스트링이므로 직접 접속과 새로고침에 rewrite가 필요 없습니다.
 
-## 배포
-
-GitHub Pages를 선택했습니다. 정적 무료 호스팅과 GitHub 버전 관리가 한 계정에 묶이고 별도 Vercel 인증이 필요 없기 때문입니다. Vercel Hobby도 이 개인 정적 앱을 지원하지만 추가 서비스 연결이 필요합니다.
-
-저장소 Settings → Pages → Source는 **GitHub Actions**입니다. `.github/workflows/deploy.yml`이 자동 배포합니다. Vite `base: './'`로 저장소 하위 경로의 assets를 처리하고, 라우터 대신 쿼리스트링을 사용해 공유 결과와 새로고침이 별도 rewrite 없이 동작합니다.
-
-## 향후 개선
-
-상권별 공식 출처 URL을 개별 레코드에 연결하고 데이터 갱신 절차를 자동화할 수 있습니다. 후보의 여행 테마/거리 필터, OG 결과 이미지 생성도 개선 후보입니다. 현재 공유 링크의 플랫폼 미리보기는 사이트 공통 정보이며 결과 이름은 페이지를 열면 표시됩니다.
+향후 확장은 지역별 상권 후보를 더 촘촘히 추가하고, 공식 시설 안내와 OSM 대표 지점의 교차 검증을 정기 갱신하는 것입니다. 현재 POI 목록은 전국의 모든 상권을 망라한 목록이 아닙니다. 모든 시군구 지원은 행정구역 모드에서 제공합니다. Web Share의 실제 메신저 전송과 실기기 두 손가락 핀치는 별도 환경 검증이 필요합니다.

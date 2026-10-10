@@ -1,86 +1,12 @@
+import placeRecords from './places.json';
 import raw from './admin.json';
-export type Candidate = {id:string;name:string;provinceId:string;path:string;kind:'admin'|'spot'|'custom';districtIds:string[];aliases:string[]};
+export type Category='commercial'|'university'|'campus'|'station'|'shopping'|'park'|'landmark';
+export type Candidate = {id:string;name:string;provinceId:string;path:string;kind:'admin'|'spot'|'custom';districtIds:string[];aliases:string[];category?:Category;location?:{lat:number;lng:number;address:string;source:string};};
 export type District = {id:string;name:string;parentId:string};
 export type Province = {id:string;name:string;officialName?:string;districts:District[]};
 export const provinces:Province[]=raw;
 export const administrative:Candidate[]=provinces.flatMap(p=>p.districts.filter(d=>!p.districts.some(other=>other.name.startsWith(d.name+' '))).map(d=>({id:'a:'+d.id,name:d.name,provinceId:p.id,path:d.name===p.name?p.name:`${p.officialName||p.name} ${d.name}`,kind:'admin',districtIds:[d.id],aliases:p.id==='28'&&d.name==='서해구'?['인천 서구']:[]})));
-// Broad commercial / station areas may cross district boundaries. districtIds represent
-// all associated districts, not a claim that the area belongs to a single legal dong.
-const definitions:[string,string,string][]=[
- ['서울특별시','마포구','홍대|홍대입구,연남동|연남,합정|합정역,망원동|망원,상수|상수동'],
- ['서울특별시','서대문구/마포구','신촌|신촌역,이대|이화여대'],
- ['서울특별시','성동구','성수|성수동,서울숲,뚝섬|뚝섬역,왕십리|왕십리역'],
- ['서울특별시','광진구','건대입구|건대,어린이대공원,구의|구의역'],
- ['서울특별시','강남구/서초구','강남역|강남,신논현|신논현역'],
- ['서울특별시','강남구','압구정|압구정로데오,신사동|신사역,가로수길,청담동|청담,코엑스|삼성역,선릉|선릉역'],
- ['서울특별시','송파구','잠실|잠실역,석촌호수,송리단길,올림픽공원,문정|문정역'],
- ['서울특별시','영등포구','여의도|여의도역,더현대 서울|더현대,문래동|문래,영등포 타임스퀘어|타임스퀘어'],
- ['서울특별시','용산구','이태원|이태원역,한남동|한남,해방촌,용산|용산역,삼각지|삼각지역,후암동,국립중앙박물관'],
- ['서울특별시','중구','명동,을지로|을지로입구,남대문시장,덕수궁,서울로7017'],
- ['서울특별시','종로구','종로,익선동,광화문|광화문광장,경복궁,혜화|혜화역,대학로,인사동,북촌|북촌한옥마을,서촌,창덕궁,통인시장'],
- ['서울특별시','중구/종로구','동대문|DDP,청계천'],
- ['서울특별시','동작구','노량진|노량진역'],
- ['서울특별시','동작구/서초구','사당|사당역'],
- ['서울특별시','서초구','방배,고속터미널|고터,반포|반포한강공원'],
- ['서울특별시','관악구','샤로수길|서울대입구,신림|신림역'],
- ['서울특별시','강서구','마곡|마곡나루,서울식물원'],
- ['서울특별시','은평구','연신내,불광'],
- ['서울특별시','성북구','성신여대|성신여대입구,성북동'],
- ['서울특별시','동대문구','청량리,경동시장'],
- ['서울특별시','노원구','공릉동|공릉,노원역'],
- ['부산광역시','부산진구','서면|서면역,전포동|전포카페거리'],
- ['부산광역시','수영구','광안리|광안리해수욕장'],
- ['부산광역시','해운대구','해운대|해운대해수욕장,해리단길,송정|송정해수욕장,센텀시티'],
- ['부산광역시','중구','남포동|남포,자갈치시장'],
- ['부산광역시','영도구','흰여울문화마을'],
- ['부산광역시','사하구','감천문화마을'],
- ['인천광역시','연수구','송도|송도센트럴파크'],
- ['인천광역시','남동구','구월동|구월'],
- ['인천광역시','부평구','부평|부평역'],
- ['인천광역시','제물포구','차이나타운|인천차이나타운,월미도,신포동|신포시장'],
- ['인천광역시','서해구','청라|청라호수공원'],
- ['인천광역시','영종구','영종도|영종,을왕리'],
- ['대구광역시','중구','동성로,김광석거리|김광석다시그리기길'],
- ['대구광역시','수성구','수성못'],
- ['대전광역시','중구','은행동,성심당 본점 일대|성심당'],
- ['대전광역시','서구','둔산동'],
- ['대전광역시','유성구','유성온천'],
- ['광주광역시','동구','충장로,동명동,국립아시아문화전당|ACC'],
- ['광주광역시','서구','상무지구'],
- ['울산광역시','중구','태화강 국가정원|태화강'],
- ['세종특별자치시','세종특별자치시','세종호수공원'],
- ['경기도','수원시 팔달구','인계동,행궁동|수원화성'],
- ['경기도','성남시 분당구','판교|판교역,서현|서현역,정자동|정자역'],
- ['경기도','고양시 일산동구','일산 라페스타|라페스타,웨스턴돔,일산호수공원'],
- ['경기도','파주시','헤이리|헤이리예술마을'],
- ['경기도','화성시 동탄구','동탄호수공원'],
- ['강원특별자치도','강릉시','안목해변|안목커피거리,경포대'],
- ['강원특별자치도','속초시','속초해수욕장,속초 중앙시장'],
- ['강원특별자치도','춘천시','춘천 명동,남이섬'],
- ['충청북도','청주시 상당구','성안길'],
- ['충청북도','단양군','도담삼봉'],
- ['충청남도','천안시 동남구','신부동'],
- ['충청남도','보령시','대천해수욕장'],
- ['전북특별자치도','전주시 완산구','객사|객리단길,전주 한옥마을|한옥마을'],
- ['전북특별자치도','군산시','군산 근대문화거리'],
- ['전라남도','여수시','여수 낭만포차|낭만포차거리'],
- ['전라남도','순천시','순천만 국가정원'],
- ['전라남도','담양군','죽녹원'],
- ['경상북도','경주시','황리단길'],
- ['경상북도','포항시 북구','영일대해수욕장|영일대'],
- ['경상북도','안동시','하회마을'],
- ['경상남도','창원시 성산구','상남동'],
- ['경상남도','통영시','동피랑'],
- ['경상남도','남해군','남해 독일마을'],
- ['제주특별자치도','제주시','애월|애월카페거리,함덕|함덕해수욕장,협재|협재해수욕장,동문시장,월정리'],
- ['제주특별자치도','서귀포시','중문|중문관광단지,성산일출봉,서귀포 매일올레시장|올레시장']
-];
-export const spots:Candidate[]=definitions.flatMap(([province,districtNames,names])=>{
- const p=provinces.find(p=>p.name===province);
- if(!p)throw new Error('Missing province '+province);
- const districts=districtNames.split('/').map(name=>{const d=p.districts.find(d=>d.name===name);if(!d)throw new Error('Missing district '+name);return d;});
- return names.split(',').map(item=>{const [name,...aliases]=item.split('|');return {id:'s:'+p.id+':'+name,name,provinceId:p.id,path:`${p.officialName||p.name} ${districtNames===p.name?'':districtNames+' 일대 '}${name}`,kind:'spot' as const,districtIds:districts.map(d=>d.id),aliases};});
-});
+export const spots:Candidate[]=placeRecords as Candidate[];
 export const candidates=[...administrative,...spots];
 export const byId=new Map(candidates.map(c=>[c.id,c]));
 export const shortNames:Record<string,string>={'서울특별시':'서울','부산광역시':'부산','대구광역시':'대구','인천광역시':'인천','광주광역시':'광주권','대전광역시':'대전','울산광역시':'울산','세종특별자치시':'세종','경기도':'경기','강원특별자치도':'강원','충청북도':'충북','충청남도':'충남','전북특별자치도':'전북','전라남도':'전남권','경상북도':'경북','경상남도':'경남','제주특별자치도':'제주'};

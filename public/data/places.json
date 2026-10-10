@@ -1,0 +1,3997 @@
+[
+  {
+    "name": "홍대",
+    "aliases": [
+      "홍대입구"
+    ],
+    "category": "university",
+    "id": "s:11:홍대",
+    "provinceId": "11",
+    "districtIds": [
+      "1144000000"
+    ],
+    "path": "서울특별시 마포구 홍대",
+    "location": {
+      "lat": 37.5574871,
+      "lng": 126.9248297,
+      "address": "홍대입구역, 양화로, 홍대거리, 동교동, 서교동, 마포구, 서울특별시, 03995, 대한민국",
+      "source": "https://www.openstreetmap.org/node/3034284936"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "연남동",
+    "aliases": [
+      "연남"
+    ],
+    "category": "commercial",
+    "id": "s:11:연남동",
+    "provinceId": "11",
+    "districtIds": [
+      "1144000000"
+    ],
+    "path": "서울특별시 마포구 연남동",
+    "location": {
+      "lat": 37.56258,
+      "lng": 126.92196,
+      "address": "연남동, 마포구, 서울특별시, 03984, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415153653"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "합정",
+    "aliases": [
+      "합정역"
+    ],
+    "category": "commercial",
+    "id": "s:11:합정",
+    "provinceId": "11",
+    "districtIds": [
+      "1144000000"
+    ],
+    "path": "서울특별시 마포구 합정",
+    "location": {
+      "lat": 37.5493558,
+      "lng": 126.9136561,
+      "address": "합정, 지하55, 양화로, 홍대, 서교동, 마포구, 서울특별시, 04037, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5916874391"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "망원동",
+    "aliases": [
+      "망원"
+    ],
+    "category": "commercial",
+    "id": "s:11:망원동",
+    "provinceId": "11",
+    "districtIds": [
+      "1144000000"
+    ],
+    "path": "서울특별시 마포구 망원동",
+    "location": {
+      "lat": 37.55586,
+      "lng": 126.90087,
+      "address": "망원동, 9통, 망원1동, 마포구, 서울특별시, 04006, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415153650"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "상수",
+    "aliases": [
+      "상수동"
+    ],
+    "category": "commercial",
+    "id": "s:11:상수",
+    "provinceId": "11",
+    "districtIds": [
+      "1144000000"
+    ],
+    "path": "서울특별시 마포구 상수",
+    "location": {
+      "lat": 37.5477577,
+      "lng": 126.9228923,
+      "address": "상수, 독막로, 24통, 서강동, 마포구, 서울특별시, 04074, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6041674902"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "신촌",
+    "aliases": [
+      "신촌역"
+    ],
+    "category": "university",
+    "id": "s:11:신촌",
+    "provinceId": "11",
+    "districtIds": [
+      "1141000000",
+      "1144000000"
+    ],
+    "path": "서울특별시 서대문구/마포구 신촌",
+    "location": {
+      "lat": 37.5597815,
+      "lng": 126.9423581,
+      "address": "신촌, 30, 신촌역로, 대현동, 신촌동, 서대문구, 서울특별시, 03765, 대한민국",
+      "source": "https://www.openstreetmap.org/node/2346858838"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "이대",
+    "aliases": [
+      "이화여대"
+    ],
+    "category": "university",
+    "id": "s:11:이대",
+    "provinceId": "11",
+    "districtIds": [
+      "1141000000",
+      "1144000000"
+    ],
+    "path": "서울특별시 서대문구/마포구 이대",
+    "location": {
+      "lat": 37.5566694,
+      "lng": 126.9446017,
+      "address": "이대역(중), 신촌로, 11통, 대흥동, 마포구, 서울특별시, 04104, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357961824"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성수",
+    "aliases": [
+      "성수동"
+    ],
+    "category": "commercial",
+    "id": "s:11:성수",
+    "provinceId": "11",
+    "districtIds": [
+      "1120000000"
+    ],
+    "path": "서울특별시 성동구 성수",
+    "location": {
+      "lat": 37.54541,
+      "lng": 127.05359,
+      "address": "성수역, 아차산로, 성수2가3동, 성동구, 서울특별시, 04790, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357873964"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서울숲",
+    "aliases": [],
+    "category": "park",
+    "id": "s:11:서울숲",
+    "provinceId": "11",
+    "districtIds": [
+      "1120000000"
+    ],
+    "path": "서울특별시 성동구 서울숲",
+    "location": {
+      "lat": 37.5435916,
+      "lng": 127.0447397,
+      "address": "서울숲, 왕십리로, 성수동1가, 성수1가1동, 성동구, 서울특별시, 04778, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6312484234"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "뚝섬",
+    "aliases": [
+      "뚝섬역"
+    ],
+    "category": "commercial",
+    "id": "s:11:뚝섬",
+    "provinceId": "11",
+    "districtIds": [
+      "1120000000"
+    ],
+    "path": "서울특별시 성동구 뚝섬",
+    "location": {
+      "lat": 37.5472351,
+      "lng": 127.04741,
+      "address": "뚝섬, 18, 아차산로, 성수1가2동, 성동구, 서울특별시, 04778, 대한민국",
+      "source": "https://www.openstreetmap.org/node/12969391184"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "왕십리",
+    "aliases": [
+      "왕십리역"
+    ],
+    "category": "commercial",
+    "id": "s:11:왕십리",
+    "provinceId": "11",
+    "districtIds": [
+      "1120000000"
+    ],
+    "path": "서울특별시 성동구 왕십리",
+    "location": {
+      "lat": 37.5613781,
+      "lng": 127.0384143,
+      "address": "왕십리역, 마조로19길, 마장동, 성동구, 서울특별시, 04759, 대한민국",
+      "source": "https://www.openstreetmap.org/way/159603684"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "건대입구",
+    "aliases": [
+      "건대"
+    ],
+    "category": "university",
+    "id": "s:11:건대입구",
+    "provinceId": "11",
+    "districtIds": [
+      "1121500000"
+    ],
+    "path": "서울특별시 광진구 건대입구",
+    "location": {
+      "lat": 37.54088,
+      "lng": 127.06812,
+      "address": "건대입구역, 아차산로, 건대 맛의거리, 화양동, 광진구, 서울특별시, 05073, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357877523"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "어린이대공원",
+    "aliases": [],
+    "category": "park",
+    "id": "s:11:어린이대공원",
+    "provinceId": "11",
+    "districtIds": [
+      "1121500000"
+    ],
+    "path": "서울특별시 광진구 어린이대공원",
+    "location": {
+      "lat": 37.5475998,
+      "lng": 127.0743915,
+      "address": "어린이대공원, 지하210, 능동로, 군자동, 광진구, 서울특별시, 04991, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6046633858"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "구의",
+    "aliases": [
+      "구의역"
+    ],
+    "category": "commercial",
+    "id": "s:11:구의",
+    "provinceId": "11",
+    "districtIds": [
+      "1121500000"
+    ],
+    "path": "서울특별시 광진구 구의",
+    "location": {
+      "lat": 37.5371676,
+      "lng": 127.0862214,
+      "address": "구의, 아차산로, 자양2동, 광진구, 서울특별시, 05044, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5933687039"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "강남역",
+    "aliases": [
+      "강남"
+    ],
+    "category": "commercial",
+    "id": "s:11:강남역",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000",
+      "1165000000"
+    ],
+    "path": "서울특별시 강남구/서초구 강남역",
+    "location": {
+      "lat": 37.4999348,
+      "lng": 127.0269678,
+      "address": "강남역, 강남대로, 역삼1동, 강남구, 서울특별시, 06615, 대한민국",
+      "source": "https://www.openstreetmap.org/node/9322016184"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "신논현",
+    "aliases": [
+      "신논현역"
+    ],
+    "category": "commercial",
+    "id": "s:11:신논현",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000",
+      "1165000000"
+    ],
+    "path": "서울특별시 강남구/서초구 신논현",
+    "location": {
+      "lat": 37.5043224,
+      "lng": 127.0245306,
+      "address": "신논현, 강남대로, 역삼1동, 강남구, 서울특별시, 06611, 대한민국",
+      "source": "https://www.openstreetmap.org/node/3824606390"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "압구정",
+    "aliases": [
+      "압구정로데오"
+    ],
+    "category": "commercial",
+    "id": "s:11:압구정",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000"
+    ],
+    "path": "서울특별시 강남구 압구정",
+    "location": {
+      "lat": 37.5279843,
+      "lng": 127.039367,
+      "address": "한양아파트.압구정로데오역, 압구정로, 신사동, 강남구, 서울특별시, 06018, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357837839"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "신사동",
+    "aliases": [
+      "신사역"
+    ],
+    "category": "commercial",
+    "id": "s:11:신사동",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000"
+    ],
+    "path": "서울특별시 강남구 신사동",
+    "location": {
+      "lat": 37.5127683,
+      "lng": 127.0205841,
+      "address": "신사역, 강남대로136길, 논현동, 논현1동, 강남구, 서울특별시, 06044, 대한민국",
+      "source": "https://www.openstreetmap.org/way/494954967"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "가로수길",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:가로수길",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000"
+    ],
+    "path": "서울특별시 강남구 가로수길",
+    "location": {
+      "lat": 37.5206268,
+      "lng": 127.023175,
+      "address": "가로수길, 신사동, 강남구, 서울특별시, 06033, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5821675742"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "청담동",
+    "aliases": [
+      "청담"
+    ],
+    "category": "commercial",
+    "id": "s:11:청담동",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000"
+    ],
+    "path": "서울특별시 강남구 청담동",
+    "location": {
+      "lat": 37.5189018,
+      "lng": 127.0493851,
+      "address": "청담역(우리들병원 앞), 443, 학동로, 청담동, 강남구, 서울특별시, 06068, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4993806921"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "코엑스",
+    "aliases": [
+      "삼성역"
+    ],
+    "category": "shopping",
+    "id": "s:11:코엑스",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000"
+    ],
+    "path": "서울특별시 강남구 코엑스",
+    "location": {
+      "lat": 37.5118733,
+      "lng": 127.0591105,
+      "address": "코엑스, 삼성로100길, 삼성동, 삼성1동, 강남구, 서울특별시, 06167, 대한민국",
+      "source": "https://www.openstreetmap.org/way/74013220"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "선릉",
+    "aliases": [
+      "선릉역"
+    ],
+    "category": "commercial",
+    "id": "s:11:선릉",
+    "provinceId": "11",
+    "districtIds": [
+      "1168000000"
+    ],
+    "path": "서울특별시 강남구 선릉",
+    "location": {
+      "lat": 37.5051756,
+      "lng": 127.0487082,
+      "address": "선릉, 지하340, 테헤란로, 역삼1동, 강남구, 서울특별시, 06212, 대한민국",
+      "source": "https://www.openstreetmap.org/node/7908597447"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "잠실",
+    "aliases": [
+      "잠실역"
+    ],
+    "category": "commercial",
+    "id": "s:11:잠실",
+    "provinceId": "11",
+    "districtIds": [
+      "1171000000"
+    ],
+    "path": "서울특별시 송파구 잠실",
+    "location": {
+      "lat": 37.5127453,
+      "lng": 127.0973401,
+      "address": "잠실역, 올림픽로, 잠실동, 잠실3동, 송파구, 서울특별시, 05553, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11625312801"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "석촌호수",
+    "aliases": [],
+    "category": "park",
+    "id": "s:11:석촌호수",
+    "provinceId": "11",
+    "districtIds": [
+      "1171000000"
+    ],
+    "path": "서울특별시 송파구 석촌호수",
+    "location": {
+      "lat": 37.5100884,
+      "lng": 127.1040775,
+      "address": "석촌호수, 잠실6동, 송파구, 서울특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/9856886"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "송리단길",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:송리단길",
+    "provinceId": "11",
+    "districtIds": [
+      "1171000000"
+    ],
+    "path": "서울특별시 송파구 송리단길",
+    "location": {
+      "lat": 37.5092302,
+      "lng": 127.1103285,
+      "address": "송리단길 작은얼굴 체형교정, 7, 2층 201호, 백제고분로45길, 송파동, 송파1동, 송파구, 서울특별시, 05619, 대한민국",
+      "source": "https://www.openstreetmap.org/node/13805737818"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "올림픽공원",
+    "aliases": [],
+    "category": "park",
+    "id": "s:11:올림픽공원",
+    "provinceId": "11",
+    "districtIds": [
+      "1171000000"
+    ],
+    "path": "서울특별시 송파구 올림픽공원",
+    "location": {
+      "lat": 37.5161479,
+      "lng": 127.1309298,
+      "address": "올림픽공원, 양재대로, 오륜동, 송파구, 서울특별시, 05648, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6039313054"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "문정",
+    "aliases": [
+      "문정역"
+    ],
+    "category": "commercial",
+    "id": "s:11:문정",
+    "provinceId": "11",
+    "districtIds": [
+      "1171000000"
+    ],
+    "path": "서울특별시 송파구 문정",
+    "location": {
+      "lat": 37.4875119,
+      "lng": 127.1214398,
+      "address": "문정역, 송파대로, 문정2동, 송파구, 서울특별시, 05854, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357834283"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "여의도",
+    "aliases": [
+      "여의도역"
+    ],
+    "category": "commercial",
+    "id": "s:11:여의도",
+    "provinceId": "11",
+    "districtIds": [
+      "1156000000"
+    ],
+    "path": "서울특별시 영등포구 여의도",
+    "location": {
+      "lat": 37.5216685,
+      "lng": 126.9243018,
+      "address": "여의도, 여의나루로, 여의도동, 여의동, 영등포구, 서울특별시, 07322, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6039313670"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "더현대 서울",
+    "aliases": [
+      "더현대"
+    ],
+    "category": "shopping",
+    "id": "s:11:더현대 서울",
+    "provinceId": "11",
+    "districtIds": [
+      "1156000000"
+    ],
+    "path": "서울특별시 영등포구 더현대 서울",
+    "location": {
+      "lat": 37.5259638,
+      "lng": 126.9284184,
+      "address": "더현대 서울, 108, 여의대로, 여의도동, 여의동, 영등포구, 서울특별시, 07335, 대한민국",
+      "source": "https://www.openstreetmap.org/way/874639191"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "문래동",
+    "aliases": [
+      "문래"
+    ],
+    "category": "commercial",
+    "id": "s:11:문래동",
+    "provinceId": "11",
+    "districtIds": [
+      "1156000000"
+    ],
+    "path": "서울특별시 영등포구 문래동",
+    "location": {
+      "lat": 37.5158226,
+      "lng": 126.8922546,
+      "address": "문래동, 영등포구, 서울특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/3879663"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "영등포 타임스퀘어",
+    "aliases": [
+      "타임스퀘어"
+    ],
+    "category": "shopping",
+    "id": "s:11:영등포 타임스퀘어",
+    "provinceId": "11",
+    "districtIds": [
+      "1156000000"
+    ],
+    "path": "서울특별시 영등포구 영등포 타임스퀘어",
+    "location": {
+      "lat": 37.5172094,
+      "lng": 126.9040371,
+      "address": "타임스퀘어, 영등포동4가, 영등포동, 영등포구, 서울특별시, 07305, 대한민국",
+      "source": "https://www.openstreetmap.org/way/344430230"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "이태원",
+    "aliases": [
+      "이태원역"
+    ],
+    "category": "commercial",
+    "id": "s:11:이태원",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 이태원",
+    "location": {
+      "lat": 37.5345026,
+      "lng": 126.9943705,
+      "address": "이태원, 이태원로, 이태원, 이태원1동, 용산구, 서울특별시, 04406, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6041673081"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "한남동",
+    "aliases": [
+      "한남"
+    ],
+    "category": "commercial",
+    "id": "s:11:한남동",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 한남동",
+    "location": {
+      "lat": 37.53822,
+      "lng": 127.0074,
+      "address": "한남동, 용산구, 서울특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/3884164"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "해방촌",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:해방촌",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 해방촌",
+    "location": {
+      "lat": 37.5435388,
+      "lng": 126.9855938,
+      "address": "해방촌, 용산동2가, 용산2가동, 용산구, 서울특별시, 04338, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6093910812"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "용산",
+    "aliases": [
+      "용산역"
+    ],
+    "category": "commercial",
+    "id": "s:11:용산",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 용산",
+    "location": {
+      "lat": 37.5298022,
+      "lng": 126.9646385,
+      "address": "용산역, 55, 한강대로23길, 한강로3가, 한강로동, 용산구, 서울특별시, 04377, 대한민국",
+      "source": "https://www.openstreetmap.org/way/210309806"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "삼각지",
+    "aliases": [
+      "삼각지역"
+    ],
+    "category": "commercial",
+    "id": "s:11:삼각지",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 삼각지",
+    "location": {
+      "lat": 37.5355067,
+      "lng": 126.9741107,
+      "address": "삼각지역, 이태원로, 한강로1가, 한강로동, 용산구, 서울특별시, 04375, 대한민국",
+      "source": "https://www.openstreetmap.org/node/2534588027"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "후암동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:후암동",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 후암동",
+    "location": {
+      "lat": 37.55011,
+      "lng": 126.98028,
+      "address": "후암동, 용산구, 서울특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/3884167"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "국립중앙박물관",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:11:국립중앙박물관",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 국립중앙박물관",
+    "location": {
+      "lat": 37.523953,
+      "lng": 126.9803196,
+      "address": "국립중앙박물관, 137, 서빙고로, 용산동6가, 서빙고동, 용산구, 서울특별시, 04383, 대한민국",
+      "source": "https://www.openstreetmap.org/way/168364800"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "명동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:명동",
+    "provinceId": "11",
+    "districtIds": [
+      "1114000000"
+    ],
+    "path": "서울특별시 중구 명동",
+    "location": {
+      "lat": 37.5608977,
+      "lng": 126.9863762,
+      "address": "명동, 퇴계로, 충무로1가, 명동, 중구, 서울특별시, 04631, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6036160341"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "을지로",
+    "aliases": [
+      "을지로입구"
+    ],
+    "category": "commercial",
+    "id": "s:11:을지로",
+    "provinceId": "11",
+    "districtIds": [
+      "1114000000"
+    ],
+    "path": "서울특별시 중구 을지로",
+    "location": {
+      "lat": 37.565581,
+      "lng": 127.009017,
+      "address": "을지로, 동대문패션타운, 을지로7가, 광희동, 중구, 서울특별시, 04566, 대한민국",
+      "source": "https://www.openstreetmap.org/way/218923178"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "남대문시장",
+    "aliases": [],
+    "category": "shopping",
+    "id": "s:11:남대문시장",
+    "provinceId": "11",
+    "districtIds": [
+      "1114000000"
+    ],
+    "path": "서울특별시 중구 남대문시장",
+    "location": {
+      "lat": 37.5592777,
+      "lng": 126.9773485,
+      "address": "남대문시장, 소월로, 남창동, 회현동, 중구, 서울특별시, 04528, 대한민국",
+      "source": "https://www.openstreetmap.org/way/78503350"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "덕수궁",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:11:덕수궁",
+    "provinceId": "11",
+    "districtIds": [
+      "1114000000"
+    ],
+    "path": "서울특별시 중구 덕수궁",
+    "location": {
+      "lat": 37.5661668,
+      "lng": 126.9751703,
+      "address": "덕수궁, 99, 세종대로, 태평로2가, 소공동, 중구, 서울특별시, 04519, 대한민국",
+      "source": "https://www.openstreetmap.org/way/26658458"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서울로7017",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:서울로7017",
+    "provinceId": "11",
+    "districtIds": [
+      "1114000000"
+    ],
+    "path": "서울특별시 중구 서울로7017",
+    "location": {
+      "lat": 37.5566858,
+      "lng": 126.9713905,
+      "address": "서울로 7017, 봉래동2가, 회현동, 중구, 서울특별시, 04509, 대한민국",
+      "source": "https://www.openstreetmap.org/way/550625236"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "종로",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:종로",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 종로",
+    "location": {
+      "lat": 37.5701745,
+      "lng": 126.9831831,
+      "address": "종각, 지하55, 종로, 종로1가, 공평동, 종로1·2·3·4가동, 종로구, 서울특별시, 03161, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5863335699"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "익선동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:익선동",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 익선동",
+    "location": {
+      "lat": 37.5743576,
+      "lng": 126.9897757,
+      "address": "익선동, 종로1·2·3·4가동, 종로구, 서울특별시, 03132, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415153841"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "광화문",
+    "aliases": [
+      "광화문광장"
+    ],
+    "category": "commercial",
+    "id": "s:11:광화문",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 광화문",
+    "location": {
+      "lat": 37.5727839,
+      "lng": 126.9768558,
+      "address": "광화문광장, 서울 도심, 사직동, 종로구, 서울특별시, 03172, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/5672803"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경복궁",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:11:경복궁",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 경복궁",
+    "location": {
+      "lat": 37.5757873,
+      "lng": 126.973526,
+      "address": "경복궁, 130, 사직로, 적선동, 사직동, 종로구, 서울특별시, 03170, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6033544429"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "혜화",
+    "aliases": [
+      "혜화역"
+    ],
+    "category": "university",
+    "id": "s:11:혜화",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 혜화",
+    "location": {
+      "lat": 37.5846517,
+      "lng": 127.0015491,
+      "address": "혜화역.동성중고(장면총리가옥), 대학로, 명륜4가, 혜화동, 종로구, 서울특별시, 03077, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357822827"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "대학로",
+    "aliases": [],
+    "category": "university",
+    "id": "s:11:대학로",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 대학로",
+    "location": {
+      "lat": 37.5752494,
+      "lng": 127.0021262,
+      "address": "대학로, 이화동, 종로구, 서울특별시, 03122, 대한민국",
+      "source": "https://www.openstreetmap.org/way/1455529488"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "인사동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:인사동",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 인사동",
+    "location": {
+      "lat": 37.5716543,
+      "lng": 126.9864242,
+      "address": "인사동, 종로1·2·3·4가동, 종로구, 서울특별시, 03164, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415153837"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "북촌",
+    "aliases": [
+      "북촌한옥마을"
+    ],
+    "category": "commercial",
+    "id": "s:11:북촌",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 북촌",
+    "location": {
+      "lat": 37.5823919,
+      "lng": 126.9858648,
+      "address": "북촌한옥마을, 북촌로12길, 가회동, 종로구, 서울특별시, 03056, 대한민국",
+      "source": "https://www.openstreetmap.org/node/2669684119"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서촌",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:서촌",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 서촌",
+    "location": {
+      "lat": 37.5793103,
+      "lng": 126.9730297,
+      "address": "라 카페 갤러리, 서촌, 28, 자하문로10길, 필운동, 사직동, 종로구, 서울특별시, 03044, 대한민국",
+      "source": "https://www.openstreetmap.org/way/231824910"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "창덕궁",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:11:창덕궁",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 창덕궁",
+    "location": {
+      "lat": 37.5823872,
+      "lng": 126.9917013,
+      "address": "창덕궁, 99, 율곡로, 훈정동, 종로1·2·3·4가동, 종로구, 서울특별시, 03072, 대한민국",
+      "source": "https://www.openstreetmap.org/way/789965985"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "통인시장",
+    "aliases": [],
+    "category": "shopping",
+    "id": "s:11:통인시장",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 통인시장",
+    "location": {
+      "lat": 37.5807552,
+      "lng": 126.9699963,
+      "address": "통인시장, 18, 자하문로15길, 통인동, 청운효자동, 종로구, 서울특별시, 03036, 대한민국",
+      "source": "https://www.openstreetmap.org/way/307148952"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "동대문",
+    "aliases": [
+      "DDP"
+    ],
+    "category": "commercial",
+    "id": "s:11:동대문",
+    "provinceId": "11",
+    "districtIds": [
+      "1114000000",
+      "1111000000"
+    ],
+    "path": "서울특별시 중구/종로구 동대문",
+    "location": {
+      "lat": 37.5670686,
+      "lng": 127.009899,
+      "address": "동대문디자인플라자, 281, 을지로, 동대문패션타운, 을지로7가, 광희동, 중구, 서울특별시, 04566, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/10647068"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "청계천",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:청계천",
+    "provinceId": "11",
+    "districtIds": [
+      "1114000000",
+      "1111000000"
+    ],
+    "path": "서울특별시 중구/종로구 청계천",
+    "location": {
+      "lat": 37.5684359,
+      "lng": 126.9939503,
+      "address": "청계천, 을지로동, 중구, 서울특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/way/368276771"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "노량진",
+    "aliases": [
+      "노량진역"
+    ],
+    "category": "commercial",
+    "id": "s:11:노량진",
+    "provinceId": "11",
+    "districtIds": [
+      "1159000000"
+    ],
+    "path": "서울특별시 동작구 노량진",
+    "location": {
+      "lat": 37.5138463,
+      "lng": 126.9447206,
+      "address": "노량진역, 노량진로, 노량진동, 노량진1동, 동작구, 서울특별시, 06902, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5918171211"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "사당",
+    "aliases": [
+      "사당역"
+    ],
+    "category": "commercial",
+    "id": "s:11:사당",
+    "provinceId": "11",
+    "districtIds": [
+      "1159000000",
+      "1165000000"
+    ],
+    "path": "서울특별시 동작구/서초구 사당",
+    "location": {
+      "lat": 37.4788878,
+      "lng": 126.9819332,
+      "address": "사당역, 동작대로, 방배2동, 서초구, 서울특별시, 07015, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357836875"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "방배",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:방배",
+    "provinceId": "11",
+    "districtIds": [
+      "1165000000"
+    ],
+    "path": "서울특별시 서초구 방배",
+    "location": {
+      "lat": 37.4816612,
+      "lng": 126.9971242,
+      "address": "피이트 아뜰리에 서초 방배역, 81, 유경빌딩 4층, 방배로, 방배1동, 서초구, 서울특별시, 06683, 대한민국",
+      "source": "https://www.openstreetmap.org/node/13805407043"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "고속터미널",
+    "aliases": [
+      "고터"
+    ],
+    "category": "commercial",
+    "id": "s:11:고속터미널",
+    "provinceId": "11",
+    "districtIds": [
+      "1165000000"
+    ],
+    "path": "서울특별시 서초구 고속터미널",
+    "location": {
+      "lat": 37.5050371,
+      "lng": 127.0049222,
+      "address": "고속터미널, 신반포로, 반포4동, 서초구, 서울특별시, 06545, 대한민국",
+      "source": "https://www.openstreetmap.org/node/3431313912"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "반포",
+    "aliases": [
+      "반포한강공원"
+    ],
+    "category": "commercial",
+    "id": "s:11:반포",
+    "provinceId": "11",
+    "districtIds": [
+      "1165000000"
+    ],
+    "path": "서울특별시 서초구 반포",
+    "location": {
+      "lat": 37.508873,
+      "lng": 126.9939435,
+      "address": "반포한강공원, 40, 반포2동, 서초구, 서울특별시, 06500, 대한민국",
+      "source": "https://www.openstreetmap.org/way/418249072"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "샤로수길",
+    "aliases": [
+      "서울대입구"
+    ],
+    "category": "university",
+    "id": "s:11:샤로수길",
+    "provinceId": "11",
+    "districtIds": [
+      "1162000000"
+    ],
+    "path": "서울특별시 관악구 샤로수길",
+    "location": {
+      "lat": 37.4782828,
+      "lng": 126.9558026,
+      "address": "샤로수길, 39-5, 남부순환로230길, 낙성대동, 관악구, 서울특별시, 08789, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5821675741"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "신림",
+    "aliases": [
+      "신림역"
+    ],
+    "category": "commercial",
+    "id": "s:11:신림",
+    "provinceId": "11",
+    "districtIds": [
+      "1162000000"
+    ],
+    "path": "서울특별시 관악구 신림",
+    "location": {
+      "lat": 37.4851675,
+      "lng": 126.9296268,
+      "address": "신림역, 신림로, 신림동, 관악구, 서울특별시, 08753, 대한민국",
+      "source": "https://www.openstreetmap.org/node/9605360940"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "마곡",
+    "aliases": [
+      "마곡나루"
+    ],
+    "category": "commercial",
+    "id": "s:11:마곡",
+    "provinceId": "11",
+    "districtIds": [
+      "1150000000"
+    ],
+    "path": "서울특별시 강서구 마곡",
+    "location": {
+      "lat": 37.5668515,
+      "lng": 126.8255715,
+      "address": "마곡나루역, 마곡중앙5로, 마곡지구도시개발지구, 가양1동, 강서구, 서울특별시, 07516, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11665110772"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서울식물원",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:서울식물원",
+    "provinceId": "11",
+    "districtIds": [
+      "1150000000"
+    ],
+    "path": "서울특별시 강서구 서울식물원",
+    "location": {
+      "lat": 37.5710656,
+      "lng": 126.8346641,
+      "address": "서울식물원, 가양1동, 강서구, 서울특별시, 07789, 대한민국",
+      "source": "https://www.openstreetmap.org/way/465318366"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "연신내",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:연신내",
+    "provinceId": "11",
+    "districtIds": [
+      "1138000000"
+    ],
+    "path": "서울특별시 은평구 연신내",
+    "location": {
+      "lat": 37.6163837,
+      "lng": 126.9184521,
+      "address": "연신내역 미용실 모네, 195, 연서로, 연신내로데오거리, 갈현동, 갈현2동, 은평구, 서울특별시, 03386, 대한민국",
+      "source": "https://www.openstreetmap.org/node/13851203846"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "불광",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:불광",
+    "provinceId": "11",
+    "districtIds": [
+      "1138000000"
+    ],
+    "path": "서울특별시 은평구 불광",
+    "location": {
+      "lat": 37.6089916,
+      "lng": 126.9319447,
+      "address": "불광역.불광1동주민센터, 진흥로, 녹번동, 은평구, 서울특별시, 03375, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357949327"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성신여대",
+    "aliases": [
+      "성신여대입구"
+    ],
+    "category": "university",
+    "id": "s:11:성신여대",
+    "provinceId": "11",
+    "districtIds": [
+      "1129000000"
+    ],
+    "path": "서울특별시 성북구 성신여대",
+    "location": {
+      "lat": 37.5926962,
+      "lng": 127.0164653,
+      "address": "성신여대입구역, 동소문로, 동선동1가, 동선동, 성북구, 서울특별시, 02846, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5226829495"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성북동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:성북동",
+    "provinceId": "11",
+    "districtIds": [
+      "1129000000"
+    ],
+    "path": "서울특별시 성북구 성북동",
+    "location": {
+      "lat": 37.59552,
+      "lng": 126.99215,
+      "address": "성북동, 성북구, 서울특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/3883193"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "청량리",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:청량리",
+    "provinceId": "11",
+    "districtIds": [
+      "1123000000"
+    ],
+    "path": "서울특별시 동대문구 청량리",
+    "location": {
+      "lat": 37.5799754,
+      "lng": 127.0446284,
+      "address": "청량리, 지하205, 왕산로, 전농동, 전농1동, 동대문구, 서울특별시, 02559, 대한민국",
+      "source": "https://www.openstreetmap.org/node/7176735174"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경동시장",
+    "aliases": [],
+    "category": "shopping",
+    "id": "s:11:경동시장",
+    "provinceId": "11",
+    "districtIds": [
+      "1123000000"
+    ],
+    "path": "서울특별시 동대문구 경동시장",
+    "location": {
+      "lat": 37.5793623,
+      "lng": 127.0388131,
+      "address": "경동시장, 고산자로36길, 제기동, 동대문구, 서울특별시, 02571, 대한민국",
+      "source": "https://www.openstreetmap.org/way/837300606"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "공릉동",
+    "aliases": [
+      "공릉"
+    ],
+    "category": "university",
+    "id": "s:11:공릉동",
+    "provinceId": "11",
+    "districtIds": [
+      "1135000000"
+    ],
+    "path": "서울특별시 노원구 공릉동",
+    "location": {
+      "lat": 37.6259213,
+      "lng": 127.0737063,
+      "address": "공릉역, 동일로192길, 공릉1동, 노원구, 서울특별시, 01842, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357862423"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "노원역",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:11:노원역",
+    "provinceId": "11",
+    "districtIds": [
+      "1135000000"
+    ],
+    "path": "서울특별시 노원구 노원역",
+    "location": {
+      "lat": 37.6563651,
+      "lng": 127.0634799,
+      "address": "노원, 상계로, 상계2동, 노원구, 서울특별시, 01695, 대한민국",
+      "source": "https://www.openstreetmap.org/node/8778625274"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서면",
+    "aliases": [
+      "서면역"
+    ],
+    "category": "commercial",
+    "id": "s:26:서면",
+    "provinceId": "26",
+    "districtIds": [
+      "2623000000"
+    ],
+    "path": "부산광역시 부산진구 서면",
+    "location": {
+      "lat": 35.1573174,
+      "lng": 129.0594829,
+      "address": "서면역, 중앙대로, 부전동, 부전2동, 부산진구, 부산광역시, 47291, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5010843778"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "전포동",
+    "aliases": [
+      "전포카페거리"
+    ],
+    "category": "commercial",
+    "id": "s:26:전포동",
+    "provinceId": "26",
+    "districtIds": [
+      "2623000000"
+    ],
+    "path": "부산광역시 부산진구 전포동",
+    "location": {
+      "lat": 35.1572828,
+      "lng": 129.0745022,
+      "address": "전포동, 전포1동, 부산진구, 부산광역시, 47301, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415145034"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "광안리",
+    "aliases": [
+      "광안리해수욕장"
+    ],
+    "category": "commercial",
+    "id": "s:26:광안리",
+    "provinceId": "26",
+    "districtIds": [
+      "2650000000"
+    ],
+    "path": "부산광역시 수영구 광안리",
+    "location": {
+      "lat": 35.1508879,
+      "lng": 129.1167806,
+      "address": "광안리해수욕장, 광안2동, 수영구, 부산광역시, 대한민국",
+      "source": "https://www.openstreetmap.org/way/107642460"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "해운대",
+    "aliases": [
+      "해운대해수욕장"
+    ],
+    "category": "commercial",
+    "id": "s:26:해운대",
+    "provinceId": "26",
+    "districtIds": [
+      "2635000000"
+    ],
+    "path": "부산광역시 해운대구 해운대",
+    "location": {
+      "lat": 35.1637531,
+      "lng": 129.1587469,
+      "address": "해운대, 해운대로, 우동, 우1동, 해운대구, 부산광역시, 48093, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5208472150"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "해리단길",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:26:해리단길",
+    "provinceId": "26",
+    "districtIds": [
+      "2635000000"
+    ],
+    "path": "부산광역시 해운대구 해리단길",
+    "location": {
+      "lat": 35.1653656,
+      "lng": 129.1576231,
+      "address": "모루씨 해리단길, 44, 우동1로, 우1동, 해운대구, 부산광역시, 48087, 대한민국",
+      "source": "https://www.openstreetmap.org/node/10302392621"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "송정",
+    "aliases": [
+      "송정해수욕장"
+    ],
+    "category": "commercial",
+    "id": "s:26:송정",
+    "provinceId": "26",
+    "districtIds": [
+      "2635000000"
+    ],
+    "path": "부산광역시 해운대구 송정",
+    "location": {
+      "lat": 35.1877248,
+      "lng": 129.2020644,
+      "address": "송정, 1147, 해운대로, 송정동, 해운대구, 부산광역시, 48068, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5747416901"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "센텀시티",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:26:센텀시티",
+    "provinceId": "26",
+    "districtIds": [
+      "2635000000"
+    ],
+    "path": "부산광역시 해운대구 센텀시티",
+    "location": {
+      "lat": 35.1685922,
+      "lng": 129.1312167,
+      "address": "센텀시티, 센텀남대로, 우2동, 해운대구, 부산광역시, 48060, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5421140316"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "남포동",
+    "aliases": [
+      "남포"
+    ],
+    "category": "commercial",
+    "id": "s:26:남포동",
+    "provinceId": "26",
+    "districtIds": [
+      "2611000000"
+    ],
+    "path": "부산광역시 중구 남포동",
+    "location": {
+      "lat": 35.0979243,
+      "lng": 129.0349473,
+      "address": "남포, 지하 12, 구덕로, 남포동5가, 남포동, 중구, 부산광역시, 48954, 대한민국",
+      "source": "https://www.openstreetmap.org/node/355173841"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "자갈치시장",
+    "aliases": [],
+    "category": "shopping",
+    "id": "s:26:자갈치시장",
+    "provinceId": "26",
+    "districtIds": [
+      "2611000000"
+    ],
+    "path": "부산광역시 중구 자갈치시장",
+    "location": {
+      "lat": 35.0966276,
+      "lng": 129.0306885,
+      "address": "자갈치시장, 자갈치해안로, 남포동4가, 남포동, 중구, 부산광역시, 48982, 대한민국",
+      "source": "https://www.openstreetmap.org/way/382696296"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "흰여울문화마을",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:26:흰여울문화마을",
+    "provinceId": "26",
+    "districtIds": [
+      "2620000000"
+    ],
+    "path": "부산광역시 영도구 흰여울문화마을",
+    "location": {
+      "lat": 35.0773961,
+      "lng": 129.0456513,
+      "address": "흰여울문화마을, 갈맷길, 영선동4가, 영선2동, 영도구, 부산광역시, 49078, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5450264422"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "감천문화마을",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:26:감천문화마을",
+    "provinceId": "26",
+    "districtIds": [
+      "2638000000"
+    ],
+    "path": "부산광역시 사하구 감천문화마을",
+    "location": {
+      "lat": 35.0963371,
+      "lng": 129.0087897,
+      "address": "감천문화마을, 천해로, 감천동, 감천2동, 사하구, 부산광역시, 49374, 대한민국",
+      "source": "https://www.openstreetmap.org/way/382693934"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "송도 센트럴파크",
+    "aliases": [
+      "송도",
+      "송도센트럴파크"
+    ],
+    "category": "park",
+    "id": "s:28:송도",
+    "provinceId": "28",
+    "districtIds": [
+      "2818500000"
+    ],
+    "path": "인천광역시 연수구 송도 센트럴파크",
+    "location": {
+      "lat": 37.3935066,
+      "lng": 126.6345613,
+      "address": "센트럴파크, 지하240, 인천타워대로, 송도2동, 연수구, 인천광역시, 22009, 대한민국",
+      "source": "https://www.openstreetmap.org/node/8390030398"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "구월동 로데오거리",
+    "aliases": [
+      "구월동",
+      "구월"
+    ],
+    "category": "commercial",
+    "id": "s:28:구월동",
+    "provinceId": "28",
+    "districtIds": [
+      "2820000000"
+    ],
+    "path": "인천광역시 남동구 구월동 로데오거리",
+    "location": {
+      "lat": 37.4461319,
+      "lng": 126.7021993,
+      "address": "구월동 로데오거리, 구월동, 구월1동, 남동구, 인천광역시, 21574, 대한민국",
+      "source": "https://www.openstreetmap.org/way/434298956"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "부평",
+    "aliases": [
+      "부평역"
+    ],
+    "category": "commercial",
+    "id": "s:28:부평",
+    "provinceId": "28",
+    "districtIds": [
+      "2823700000"
+    ],
+    "path": "인천광역시 부평구 부평",
+    "location": {
+      "lat": 37.492446,
+      "lng": 126.7245258,
+      "address": "부평역, 시장로, 부평문화의거리, 부평동, 부평구, 인천광역시, 21395, 대한민국",
+      "source": "https://www.openstreetmap.org/node/12588836200"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "차이나타운",
+    "aliases": [
+      "인천차이나타운"
+    ],
+    "category": "commercial",
+    "id": "s:28:차이나타운",
+    "provinceId": "28",
+    "districtIds": [
+      "2812500000"
+    ],
+    "path": "인천광역시 제물포구 차이나타운",
+    "location": {
+      "lat": 37.4772562,
+      "lng": 126.6191855,
+      "address": "차이나타운로, 인천차이나타운, 북성동2가, 북성동, 제물포구, 인천광역시, 22312, 대한민국",
+      "source": "https://www.openstreetmap.org/way/234905656"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "월미도",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:28:월미도",
+    "provinceId": "28",
+    "districtIds": [
+      "2812500000"
+    ],
+    "path": "인천광역시 제물포구 월미도",
+    "location": {
+      "lat": 37.4729697,
+      "lng": 126.6028277,
+      "address": "월미도, 인천광역시, 22301, 대한민국",
+      "source": "https://www.openstreetmap.org/node/7403763386"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "신포동",
+    "aliases": [
+      "신포시장"
+    ],
+    "category": "commercial",
+    "id": "s:28:신포동",
+    "provinceId": "28",
+    "districtIds": [
+      "2812500000"
+    ],
+    "path": "인천광역시 제물포구 신포동",
+    "location": {
+      "lat": 37.47117,
+      "lng": 126.6267,
+      "address": "신포동, 제물포구, 인천광역시, 22322, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415154877"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "청라",
+    "aliases": [
+      "청라호수공원"
+    ],
+    "category": "commercial",
+    "id": "s:28:청라",
+    "provinceId": "28",
+    "districtIds": [
+      "2827500000"
+    ],
+    "path": "인천광역시 서해구 청라",
+    "location": {
+      "lat": 37.5702484,
+      "lng": 126.6705968,
+      "address": "청라, 인천국제공항고속도로, 검암동, 검암경서동, 서해구, 인천광역시, 22694, 대한민국",
+      "source": "https://www.openstreetmap.org/node/2406950221"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "영종도",
+    "aliases": [
+      "영종"
+    ],
+    "category": "commercial",
+    "id": "s:28:영종도",
+    "provinceId": "28",
+    "districtIds": [
+      "2815500000"
+    ],
+    "path": "인천광역시 영종구 영종도",
+    "location": {
+      "lat": 37.5118887,
+      "lng": 126.524599,
+      "address": "영종, 인천국제공항고속도로, 운북동, 영종동, 영종구, 인천광역시, 22372, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4090063434"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "을왕리",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:28:을왕리",
+    "provinceId": "28",
+    "districtIds": [
+      "2815500000"
+    ],
+    "path": "인천광역시 영종구 을왕리",
+    "location": {
+      "lat": 37.4469238,
+      "lng": 126.3723626,
+      "address": "을왕리해수욕장(Eulwangri Beach), 용유동, 영종구, 인천광역시, 대한민국",
+      "source": "https://www.openstreetmap.org/way/279346996"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "동성로",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:27:동성로",
+    "provinceId": "27",
+    "districtIds": [
+      "2711000000"
+    ],
+    "path": "대구광역시 중구 동성로",
+    "location": {
+      "lat": 35.86837,
+      "lng": 128.59478,
+      "address": "동성로, 동성로3가, 성내1동, 중구, 대구광역시, 41937, 대한민국",
+      "source": "https://www.openstreetmap.org/way/32895615"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "김광석거리",
+    "aliases": [
+      "김광석다시그리기길"
+    ],
+    "category": "commercial",
+    "id": "s:27:김광석거리",
+    "provinceId": "27",
+    "districtIds": [
+      "2711000000"
+    ],
+    "path": "대구광역시 중구 김광석거리",
+    "location": {
+      "lat": 35.8610677,
+      "lng": 128.607329,
+      "address": "김광석거리, 달구벌대로450길, 대봉동, 대봉1동, 중구, 대구광역시, 41951, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6819846987"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "수성못",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:27:수성못",
+    "provinceId": "27",
+    "districtIds": [
+      "2726000000"
+    ],
+    "path": "대구광역시 수성구 수성못",
+    "location": {
+      "lat": 35.8313319,
+      "lng": 128.6231953,
+      "address": "수성못, 14, 동대구로, 두산동, 황금2동, 수성구, 대구광역시, 42186, 대한민국",
+      "source": "https://www.openstreetmap.org/node/8288809754"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "은행동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:30:은행동",
+    "provinceId": "30",
+    "districtIds": [
+      "3014000000"
+    ],
+    "path": "대전광역시 중구 은행동",
+    "location": {
+      "lat": 36.32928,
+      "lng": 127.42704,
+      "address": "은행동, 은행선화동, 중구, 대전광역시, 34832, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415161565"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성심당 본점 일대",
+    "aliases": [
+      "성심당"
+    ],
+    "category": "commercial",
+    "id": "s:30:성심당 본점 일대",
+    "provinceId": "30",
+    "districtIds": [
+      "3014000000"
+    ],
+    "path": "대전광역시 중구 성심당 본점 일대",
+    "location": {
+      "lat": 36.3277303,
+      "lng": 127.4272865,
+      "address": "성심당, 15, 대종로480번길, 은행동, 은행선화동, 중구, 대전광역시, 34921, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6443238585"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "둔산동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:30:둔산동",
+    "provinceId": "30",
+    "districtIds": [
+      "3017000000"
+    ],
+    "path": "대전광역시 서구 둔산동",
+    "location": {
+      "lat": 36.3560702,
+      "lng": 127.390656,
+      "address": "둔산동, 둔산1동, 서구, 대전광역시, 35237, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415161426"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "유성온천",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:30:유성온천",
+    "provinceId": "30",
+    "districtIds": [
+      "3020000000"
+    ],
+    "path": "대전광역시 유성구 유성온천",
+    "location": {
+      "lat": 36.353704,
+      "lng": 127.3416486,
+      "address": "유성온천, 계룡로, 봉명동, 온천1동, 유성구, 대전광역시, 34168, 대한민국",
+      "source": "https://www.openstreetmap.org/node/9271804088"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "충장로",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:29:충장로",
+    "provinceId": "29",
+    "districtIds": [
+      "1221000000"
+    ],
+    "path": "전남광주통합특별시 동구 충장로",
+    "location": {
+      "lat": 35.1512889,
+      "lng": 126.9118926,
+      "address": "충장로, 충장로5가, 충장동, 동구, 광주, 전남광주통합특별시, 61476, 대한민국",
+      "source": "https://www.openstreetmap.org/way/452261517"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "동명동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:29:동명동",
+    "provinceId": "29",
+    "districtIds": [
+      "1221000000"
+    ],
+    "path": "전남광주통합특별시 동구 동명동",
+    "location": {
+      "lat": 35.1506034,
+      "lng": 126.9253083,
+      "address": "동명동, 동구, 광주, 전남광주통합특별시, 61434, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415146374"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "국립아시아문화전당",
+    "aliases": [
+      "ACC"
+    ],
+    "category": "landmark",
+    "id": "s:29:국립아시아문화전당",
+    "provinceId": "29",
+    "districtIds": [
+      "1221000000"
+    ],
+    "path": "전남광주통합특별시 동구 국립아시아문화전당",
+    "location": {
+      "lat": 35.1472744,
+      "lng": 126.9208083,
+      "address": "국립아시아문화전당, 38, 문화전당로, 광산동, 서남동, 동구, 광주, 전남광주통합특별시, 61485, 대한민국",
+      "source": "https://www.openstreetmap.org/way/248192696"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "상무지구",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:29:상무지구",
+    "provinceId": "29",
+    "districtIds": [
+      "1224000000"
+    ],
+    "path": "전남광주통합특별시 서구 상무지구",
+    "location": {
+      "lat": 35.1566161,
+      "lng": 126.8389694,
+      "address": "상무지구, 상무누리로, 치평동, 서구, 광주, 전남광주통합특별시, 61944, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6226664525"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "태화강 국가정원",
+    "aliases": [
+      "태화강"
+    ],
+    "category": "park",
+    "id": "s:31:태화강 국가정원",
+    "provinceId": "31",
+    "districtIds": [
+      "3111000000"
+    ],
+    "path": "울산광역시 중구 태화강 국가정원",
+    "location": {
+      "lat": 35.5497119,
+      "lng": 129.2996875,
+      "address": "태화강 국가정원, 신정3동, 중구, 울산광역시, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/11313014"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "세종호수공원",
+    "aliases": [],
+    "category": "park",
+    "id": "s:36:세종호수공원",
+    "provinceId": "36",
+    "districtIds": [
+      "3611000000"
+    ],
+    "path": "세종특별자치시 세종호수공원",
+    "location": {
+      "lat": 36.5020984,
+      "lng": 127.2762464,
+      "address": "세종호수공원, 155, 나성동, 세종특별자치시, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/9734480"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "인계동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:41:인계동",
+    "provinceId": "41",
+    "districtIds": [
+      "4111500000"
+    ],
+    "path": "경기도 수원시 팔달구 인계동",
+    "location": {
+      "lat": 37.268208,
+      "lng": 127.0293802,
+      "address": "인계동, 팔달구, 수원시, 경기도, 16489, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415155191"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "행궁동",
+    "aliases": [
+      "수원화성"
+    ],
+    "category": "landmark",
+    "id": "s:41:행궁동",
+    "provinceId": "41",
+    "districtIds": [
+      "4111500000"
+    ],
+    "path": "경기도 수원시 팔달구 행궁동",
+    "location": {
+      "lat": 37.2865354,
+      "lng": 127.0142788,
+      "address": "행궁동 임시 주차장, 정조로885번길, 행리단길, 장안동, 팔달구, 수원시, 경기도, 16253, 대한민국",
+      "source": "https://www.openstreetmap.org/way/1164818521"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "판교",
+    "aliases": [
+      "판교역"
+    ],
+    "category": "commercial",
+    "id": "s:41:판교",
+    "provinceId": "41",
+    "districtIds": [
+      "4113500000"
+    ],
+    "path": "경기도 성남시 분당구 판교",
+    "location": {
+      "lat": 37.39473,
+      "lng": 127.111189,
+      "address": "판교, 판교역로146번길, 백현동, 판교, 분당구, 성남시, 경기도, 13529, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5927786493"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서현",
+    "aliases": [
+      "서현역"
+    ],
+    "category": "commercial",
+    "id": "s:41:서현",
+    "provinceId": "41",
+    "districtIds": [
+      "4113500000"
+    ],
+    "path": "경기도 성남시 분당구 서현",
+    "location": {
+      "lat": 37.3849098,
+      "lng": 127.1233331,
+      "address": "서현, 서현고가차도, 서현동, 분당, 분당구, 성남시, 경기도, 13591, 대한민국",
+      "source": "https://www.openstreetmap.org/node/6312484225"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "정자동",
+    "aliases": [
+      "정자역"
+    ],
+    "category": "commercial",
+    "id": "s:41:정자동",
+    "provinceId": "41",
+    "districtIds": [
+      "4113500000"
+    ],
+    "path": "경기도 성남시 분당구 정자동",
+    "location": {
+      "lat": 37.366234,
+      "lng": 127.1081139,
+      "address": "정자, 지하333, 성남대로, 정자동, 분당, 분당구, 성남시, 경기도, 13558, 대한민국",
+      "source": "https://www.openstreetmap.org/node/7908597461"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "일산 라페스타",
+    "aliases": [
+      "라페스타"
+    ],
+    "category": "commercial",
+    "id": "s:41:일산 라페스타",
+    "provinceId": "41",
+    "districtIds": [
+      "4128500000"
+    ],
+    "path": "경기도 고양시 일산동구 일산 라페스타",
+    "location": {
+      "lat": 37.6612823,
+      "lng": 126.7688167,
+      "address": "라페스타 C동, 32-34, 무궁화로, 장항2동, 일산동구, 고양시, 경기도, 10401, 대한민국",
+      "source": "https://www.openstreetmap.org/way/470455370"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "웨스턴돔",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:41:웨스턴돔",
+    "provinceId": "41",
+    "districtIds": [
+      "4128500000"
+    ],
+    "path": "경기도 고양시 일산동구 웨스턴돔",
+    "location": {
+      "lat": 37.6551627,
+      "lng": 126.7725036,
+      "address": "웨스턴돔, 장항2동, 일산동구, 고양시, 경기도, 대한민국",
+      "source": "https://www.openstreetmap.org/way/656262341"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "일산호수공원",
+    "aliases": [],
+    "category": "park",
+    "id": "s:41:일산호수공원",
+    "provinceId": "41",
+    "districtIds": [
+      "4128500000"
+    ],
+    "path": "경기도 고양시 일산동구 일산호수공원",
+    "location": {
+      "lat": 37.6575299,
+      "lng": 126.7642313,
+      "address": "일산호수공원, 장항한강5로, 장항동, 장항1동, 일산동구, 고양시, 경기도, 10399, 대한민국",
+      "source": "https://www.openstreetmap.org/way/32006947"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "헤이리",
+    "aliases": [
+      "헤이리예술마을"
+    ],
+    "category": "commercial",
+    "id": "s:41:헤이리",
+    "provinceId": "41",
+    "districtIds": [
+      "4148000000"
+    ],
+    "path": "경기도 파주시 헤이리",
+    "location": {
+      "lat": 37.7887745,
+      "lng": 126.6991582,
+      "address": "헤이리 예술마을, 헤이리로, 탄현면, 파주시, 경기도, 10859, 대한민국",
+      "source": "https://www.openstreetmap.org/way/32006452"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "동탄호수공원",
+    "aliases": [],
+    "category": "park",
+    "id": "s:41:동탄호수공원",
+    "provinceId": "41",
+    "districtIds": [
+      "4159700000"
+    ],
+    "path": "경기도 화성시 동탄구 동탄호수공원",
+    "location": {
+      "lat": 37.1671054,
+      "lng": 127.1065618,
+      "address": "동탄호수공원, 동탄대로, 산척동, 화성시, 경기도, 18500, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11548581501"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "안목해변",
+    "aliases": [
+      "안목커피거리"
+    ],
+    "category": "landmark",
+    "id": "s:51:안목해변",
+    "provinceId": "51",
+    "districtIds": [
+      "5115000000"
+    ],
+    "path": "강원특별자치도 강릉시 안목해변",
+    "location": {
+      "lat": 37.773569,
+      "lng": 128.945388,
+      "address": "안목해변, 창해로, 송정동, 강릉시, 강원특별자치도, 25556, 대한민국",
+      "source": "https://www.openstreetmap.org/node/9295646025"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경포대",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:51:경포대",
+    "provinceId": "51",
+    "districtIds": [
+      "5115000000"
+    ],
+    "path": "강원특별자치도 강릉시 경포대",
+    "location": {
+      "lat": 37.794754,
+      "lng": 128.8963567,
+      "address": "경포대, 운정동, 경포동, 강릉시, 강원특별자치도, 대한민국",
+      "source": "https://www.openstreetmap.org/way/468962074"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "속초해수욕장",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:51:속초해수욕장",
+    "provinceId": "51",
+    "districtIds": [
+      "5121000000"
+    ],
+    "path": "강원특별자치도 속초시 속초해수욕장",
+    "location": {
+      "lat": 38.1881315,
+      "lng": 128.6056644,
+      "address": "속초해수욕장, 청호동, 속초시, 강원특별자치도, 대한민국",
+      "source": "https://www.openstreetmap.org/way/178808338"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "속초 중앙시장",
+    "aliases": [],
+    "category": "shopping",
+    "id": "s:51:속초 중앙시장",
+    "provinceId": "51",
+    "districtIds": [
+      "5121000000"
+    ],
+    "path": "강원특별자치도 속초시 속초 중앙시장",
+    "location": {
+      "lat": 38.20477,
+      "lng": 128.5897997,
+      "address": "속초관광수산시장, 중앙시장로, 중앙동, 금호동, 속초시, 강원특별자치도, 24831, 대한민국",
+      "source": "https://www.openstreetmap.org/way/1306387160"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "춘천 명동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:51:춘천 명동",
+    "provinceId": "51",
+    "districtIds": [
+      "5111000000"
+    ],
+    "path": "강원특별자치도 춘천시 춘천 명동",
+    "location": {
+      "lat": 37.8771803,
+      "lng": 127.7245358,
+      "address": "명동길, 죽림동, 약사명동, 춘천시, 강원특별자치도, 24357, 대한민국",
+      "source": "https://www.openstreetmap.org/way/812783535"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "남이섬",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:51:남이섬",
+    "provinceId": "51",
+    "districtIds": [
+      "5111000000"
+    ],
+    "path": "강원특별자치도 춘천시 남이섬",
+    "location": {
+      "lat": 37.7917285,
+      "lng": 127.525144,
+      "address": "남이섬, 남산면, 춘천시, 강원특별자치도, 24464, 대한민국",
+      "source": "https://www.openstreetmap.org/way/238212575"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성안길",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:43:성안길",
+    "provinceId": "43",
+    "districtIds": [
+      "4311100000"
+    ],
+    "path": "충청북도 청주시 상당구 성안길",
+    "location": {
+      "lat": 36.6292023,
+      "lng": 127.4894562,
+      "address": "성안로, 남문로1가, 상당구, 청주시, 충청북도, 28716, 대한민국",
+      "source": "https://www.openstreetmap.org/way/151686575"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "도담삼봉",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:43:도담삼봉",
+    "provinceId": "43",
+    "districtIds": [
+      "4380000000"
+    ],
+    "path": "충청북도 단양군 도담삼봉",
+    "location": {
+      "lat": 37.0001167,
+      "lng": 128.3438889,
+      "address": "도담삼봉, 하괴리, 단양군, 충청북도, 27008, 대한민국",
+      "source": "https://www.openstreetmap.org/node/10252764169"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "신부동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:44:신부동",
+    "provinceId": "44",
+    "districtIds": [
+      "4413100000"
+    ],
+    "path": "충청남도 천안시 동남구 신부동",
+    "location": {
+      "lat": 36.8193168,
+      "lng": 127.1585929,
+      "address": "신부동, 동남구, 천안시, 충청남도, 31124, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4682896871"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "대천해수욕장",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:44:대천해수욕장",
+    "provinceId": "44",
+    "districtIds": [
+      "4418000000"
+    ],
+    "path": "충청남도 보령시 대천해수욕장",
+    "location": {
+      "lat": 36.3113395,
+      "lng": 126.5127201,
+      "address": "대천해수욕장, 보령시, 충청남도, 대한민국",
+      "source": "https://www.openstreetmap.org/way/591698660"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "객사",
+    "aliases": [
+      "객리단길"
+    ],
+    "category": "commercial",
+    "id": "s:52:객사",
+    "provinceId": "52",
+    "districtIds": [
+      "5211100000"
+    ],
+    "path": "전북특별자치도 전주시 완산구 객사",
+    "location": {
+      "lat": 35.818101,
+      "lng": 127.1454542,
+      "address": "충경로 객사, 충경로, 중앙동3가, 중앙동, 완산구, 전주시, 전북특별자치도, 55038, 대한민국",
+      "source": "https://www.openstreetmap.org/node/12243878360"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "전주 한옥마을",
+    "aliases": [
+      "한옥마을"
+    ],
+    "category": "landmark",
+    "id": "s:52:전주 한옥마을",
+    "provinceId": "52",
+    "districtIds": [
+      "5211100000"
+    ],
+    "path": "전북특별자치도 전주시 완산구 전주 한옥마을",
+    "location": {
+      "lat": 35.816255,
+      "lng": 127.1547818,
+      "address": "오목대.한옥마을, 기린대로, 풍남동3가, 완산구, 전주시, 전북특별자치도, 55041, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4675801479"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "군산 근대문화거리",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:52:군산 근대문화거리",
+    "provinceId": "52",
+    "districtIds": [
+      "5213000000"
+    ],
+    "path": "전북특별자치도 군산시 군산 근대문화거리",
+    "location": {
+      "lat": 35.990814,
+      "lng": 126.712203,
+      "address": "군산근대역사박물관, 240, 해망로, 영화동, 군산시, 전북특별자치도, 54021, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/11564073"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "여수 낭만포차",
+    "aliases": [
+      "낭만포차거리"
+    ],
+    "category": "commercial",
+    "id": "s:46:여수 낭만포차",
+    "provinceId": "46",
+    "districtIds": [
+      "1213000000"
+    ],
+    "path": "전남광주통합특별시 여수시 여수 낭만포차",
+    "location": {
+      "lat": 34.7523333,
+      "lng": 127.7029699,
+      "address": "낭만포차, 여문문화1길, 여서동, 여수시, 전남광주통합특별시, 59712, 대한민국",
+      "source": "https://www.openstreetmap.org/node/12553345230"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "순천만 국가정원",
+    "aliases": [],
+    "category": "park",
+    "id": "s:46:순천만 국가정원",
+    "provinceId": "46",
+    "districtIds": [
+      "1215000000"
+    ],
+    "path": "전남광주통합특별시 순천시 순천만 국가정원",
+    "location": {
+      "lat": 34.9266193,
+      "lng": 127.510122,
+      "address": "순천만국가정원, 대안리, 순천시, 전남광주통합특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/way/231160666"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "죽녹원",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:46:죽녹원",
+    "provinceId": "46",
+    "districtIds": [
+      "1271000000"
+    ],
+    "path": "전남광주통합특별시 담양군 죽녹원",
+    "location": {
+      "lat": 35.3286267,
+      "lng": 126.9855593,
+      "address": "죽녹원, 119, 향교리, 담양군, 전남광주통합특별시, 대한민국",
+      "source": "https://www.openstreetmap.org/way/513330739"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "황리단길",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:47:황리단길",
+    "provinceId": "47",
+    "districtIds": [
+      "4713000000"
+    ],
+    "path": "경상북도 경주시 황리단길",
+    "location": {
+      "lat": 35.8388987,
+      "lng": 129.2098001,
+      "address": "황리단길, 포석로1095번길, 사정동, 황남동, 경주시, 경상북도, 38158, 대한민국",
+      "source": "https://www.openstreetmap.org/node/3756798918"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "영일대해수욕장",
+    "aliases": [
+      "영일대"
+    ],
+    "category": "landmark",
+    "id": "s:47:영일대해수욕장",
+    "provinceId": "47",
+    "districtIds": [
+      "4711300000"
+    ],
+    "path": "경상북도 포항시 북구 영일대해수욕장",
+    "location": {
+      "lat": 36.0546137,
+      "lng": 129.3765326,
+      "address": "영일대해수욕장, 삼호로, 중앙동, 두호동, 북구, 포항시, 경상북도, 37708, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5789575053"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "하회마을",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:47:하회마을",
+    "provinceId": "47",
+    "districtIds": [
+      "4717000000"
+    ],
+    "path": "경상북도 안동시 하회마을",
+    "location": {
+      "lat": 36.5390268,
+      "lng": 128.5180947,
+      "address": "하회마을, 하회리, 안동시, 경상북도, 대한민국",
+      "source": "https://www.openstreetmap.org/way/548195691"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "상남동",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:48:상남동",
+    "provinceId": "48",
+    "districtIds": [
+      "4812300000"
+    ],
+    "path": "경상남도 창원시 성산구 상남동",
+    "location": {
+      "lat": 35.21831,
+      "lng": 128.68951,
+      "address": "상남동, 성산구, 창원시, 경상남도, 51498, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415145339"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "동피랑",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:48:동피랑",
+    "provinceId": "48",
+    "districtIds": [
+      "4822000000"
+    ],
+    "path": "경상남도 통영시 동피랑",
+    "location": {
+      "lat": 34.8456688,
+      "lng": 128.4277277,
+      "address": "동피랑 벽화마을, 동피랑길, 태평동, 화삼리, 통영시, 경상남도, 53052, 대한민국",
+      "source": "https://www.openstreetmap.org/node/7160198785"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "남해 독일마을",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:48:남해 독일마을",
+    "provinceId": "48",
+    "districtIds": [
+      "4884000000"
+    ],
+    "path": "경상남도 남해군 남해 독일마을",
+    "location": {
+      "lat": 34.7992332,
+      "lng": 128.0401294,
+      "address": "독일마을, 물건리, 남해군, 경상남도, 52444, 대한민국",
+      "source": "https://www.openstreetmap.org/node/2487576879"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "애월",
+    "aliases": [
+      "애월카페거리"
+    ],
+    "category": "commercial",
+    "id": "s:50:애월",
+    "provinceId": "50",
+    "districtIds": [
+      "5011000000"
+    ],
+    "path": "제주특별자치도 제주시 애월",
+    "location": {
+      "lat": 33.4680921,
+      "lng": 126.3257719,
+      "address": "애월항, 애월리, 애월읍, 제주시, 제주특별자치도, 63044, 대한민국",
+      "source": "https://www.openstreetmap.org/node/3738276937"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "함덕",
+    "aliases": [
+      "함덕해수욕장"
+    ],
+    "category": "commercial",
+    "id": "s:50:함덕",
+    "provinceId": "50",
+    "districtIds": [
+      "5011000000"
+    ],
+    "path": "제주특별자치도 제주시 함덕",
+    "location": {
+      "lat": 33.5431881,
+      "lng": 126.6698794,
+      "address": "함덕해수욕장, 함덕리, 조천읍, 제주시, 제주특별자치도, 대한민국",
+      "source": "https://www.openstreetmap.org/way/200720586"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "협재",
+    "aliases": [
+      "협재해수욕장"
+    ],
+    "category": "commercial",
+    "id": "s:50:협재",
+    "provinceId": "50",
+    "districtIds": [
+      "5011000000"
+    ],
+    "path": "제주특별자치도 제주시 협재",
+    "location": {
+      "lat": 33.394233,
+      "lng": 126.240817,
+      "address": "협재해수욕장, 한림로, 협재리, 한림읍, 제주시, 제주특별자치도, 63011, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11338569656"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "동문시장",
+    "aliases": [],
+    "category": "shopping",
+    "id": "s:50:동문시장",
+    "provinceId": "50",
+    "districtIds": [
+      "5011000000"
+    ],
+    "path": "제주특별자치도 제주시 동문시장",
+    "location": {
+      "lat": 33.5122386,
+      "lng": 126.5275862,
+      "address": "동문시장, 중앙로13길, 일도일동, 제주시, 제주특별자치도, 63192, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/20998698"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "월정리",
+    "aliases": [],
+    "category": "commercial",
+    "id": "s:50:월정리",
+    "provinceId": "50",
+    "districtIds": [
+      "5011000000"
+    ],
+    "path": "제주특별자치도 제주시 월정리",
+    "location": {
+      "lat": 33.551599,
+      "lng": 126.791633,
+      "address": "월정리, 일주동로, 월정리, 구좌읍, 제주시, 제주특별자치도, 63358, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11338570857"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "중문",
+    "aliases": [
+      "중문관광단지"
+    ],
+    "category": "commercial",
+    "id": "s:50:중문",
+    "provinceId": "50",
+    "districtIds": [
+      "5013000000"
+    ],
+    "path": "제주특별자치도 서귀포시 중문",
+    "location": {
+      "lat": 33.252201,
+      "lng": 126.412709,
+      "address": "중문관광단지, 중문관광로, 색달동, 예래동, 서귀포시, 제주특별자치도, 63535, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11338570289"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성산일출봉",
+    "aliases": [],
+    "category": "landmark",
+    "id": "s:50:성산일출봉",
+    "provinceId": "50",
+    "districtIds": [
+      "5013000000"
+    ],
+    "path": "제주특별자치도 서귀포시 성산일출봉",
+    "location": {
+      "lat": 33.4588891,
+      "lng": 126.9408178,
+      "address": "성산일출봉, 284-12, 일출로, 성산리, 성산읍, 서귀포시, 제주특별자치도, 63643, 대한민국",
+      "source": "https://www.openstreetmap.org/node/330006952"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서귀포 매일올레시장",
+    "aliases": [
+      "올레시장"
+    ],
+    "category": "shopping",
+    "id": "s:50:서귀포 매일올레시장",
+    "provinceId": "50",
+    "districtIds": [
+      "5013000000"
+    ],
+    "path": "제주특별자치도 서귀포시 서귀포 매일올레시장",
+    "location": {
+      "lat": 33.249753,
+      "lng": 126.565959,
+      "address": "매일올레시장 7번입구, 동문로, 중앙동, 서귀포시, 제주특별자치도, 63595, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11338572539"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "홍익대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:홍익대학교",
+    "provinceId": "11",
+    "districtIds": [
+      "1144000000"
+    ],
+    "path": "서울특별시 마포구 홍익대학교",
+    "location": {
+      "lat": 37.5503552,
+      "lng": 126.9254349,
+      "address": "홍익대학교 서울캠퍼스, 94, 와우산로, 홍대, 17통, 서강동, 마포구, 서울특별시, 04066, 대한민국",
+      "source": "https://www.openstreetmap.org/way/216908773"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "건국대학교 서울캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:건국대학교 서울캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1121500000"
+    ],
+    "path": "서울특별시 광진구 건국대학교 서울캠퍼스",
+    "location": {
+      "lat": 37.541847,
+      "lng": 127.0771149,
+      "address": "건국대학교 서울캠퍼스, 120, 능동로, 모진동, 화양동, 광진구, 서울특별시, 05029, 대한민국",
+      "source": "https://www.openstreetmap.org/way/26281749"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경희대학교 서울캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:경희대학교 서울캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1123000000"
+    ],
+    "path": "서울특별시 동대문구 경희대학교 서울캠퍼스",
+    "location": {
+      "lat": 37.5971213,
+      "lng": 127.0519867,
+      "address": "경희대학교 서울캠퍼스, 26, 경희대로, 회기동, 동대문구, 서울특별시, 02447, 대한민국",
+      "source": "https://www.openstreetmap.org/way/326871536"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "회기역 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:11:회기역 일대",
+    "provinceId": "11",
+    "districtIds": [
+      "1123000000"
+    ],
+    "path": "서울특별시 동대문구 회기역 일대",
+    "location": {
+      "lat": 37.5894974,
+      "lng": 127.0576239,
+      "address": "회기, 196, 회기로, 휘경1동, 동대문구, 서울특별시, 02446, 대한민국",
+      "source": "https://www.openstreetmap.org/node/355172769"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "고려대학교 서울캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:고려대학교 서울캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1129000000"
+    ],
+    "path": "서울특별시 성북구 고려대학교 서울캠퍼스",
+    "location": {
+      "lat": 37.5880378,
+      "lng": 127.0323927,
+      "address": "고려대학교 서울캠퍼스, 145, 안암로, 종암동, 성북구, 서울특별시, 02841, 대한민국",
+      "source": "https://www.openstreetmap.org/way/26253960"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "안암역 대학가",
+    "category": "university",
+    "aliases": [],
+    "id": "s:11:안암역 대학가",
+    "provinceId": "11",
+    "districtIds": [
+      "1129000000"
+    ],
+    "path": "서울특별시 성북구 안암역 대학가",
+    "location": {
+      "lat": 37.5862112,
+      "lng": 127.0298428,
+      "address": "안암역, 고려대로26길, 안암동5가, 안암동, 성북구, 서울특별시, 02856, 대한민국",
+      "source": "https://www.openstreetmap.org/node/3442142496"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "서울대학교 관악캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:서울대학교 관악캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1162000000"
+    ],
+    "path": "서울특별시 관악구 서울대학교 관악캠퍼스",
+    "location": {
+      "lat": 37.458115,
+      "lng": 126.9521607,
+      "address": "서울대학교 관악캠퍼스, 1, 관악로, 대학동, 관악구, 서울특별시, 08826, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/11917142"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "중앙대학교 서울캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:중앙대학교 서울캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1159000000"
+    ],
+    "path": "서울특별시 동작구 중앙대학교 서울캠퍼스",
+    "location": {
+      "lat": 37.5043446,
+      "lng": 126.9562823,
+      "address": "중앙대학교 서울캠퍼스, 상도로53길, 흑석동, 상도1동, 동작구, 서울특별시, 06977, 대한민국",
+      "source": "https://www.openstreetmap.org/way/284355223"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "흑석역 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:11:흑석역 일대",
+    "provinceId": "11",
+    "districtIds": [
+      "1159000000"
+    ],
+    "path": "서울특별시 동작구 흑석역 일대",
+    "location": {
+      "lat": 37.5076636,
+      "lng": 126.9654497,
+      "address": "흑석역(중대입구), 현충로, 흑석동, 사당2동, 동작구, 서울특별시, 06904, 대한민국",
+      "source": "https://www.openstreetmap.org/node/13042690820"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성균관대학교 인문사회과학캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:성균관대학교 인문사회과학캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1111000000"
+    ],
+    "path": "서울특별시 종로구 성균관대학교 인문사회과학캠퍼스",
+    "location": {
+      "lat": 37.5870459,
+      "lng": 126.9906264,
+      "address": "성균관대학교 인문사회과학캠퍼스, 25-2, 성균관로, 명륜1가, 혜화동, 종로구, 서울특별시, 03063, 대한민국",
+      "source": "https://www.openstreetmap.org/way/75546222"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "연세대학교 신촌캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:연세대학교 신촌캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1141000000"
+    ],
+    "path": "서울특별시 서대문구 연세대학교 신촌캠퍼스",
+    "location": {
+      "lat": 37.567836,
+      "lng": 126.9393747,
+      "address": "연세대학교 신촌캠퍼스, 50, 연세로, 신촌동, 서대문구, 서울특별시, 03722, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/18619603"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성신여자대학교 돈암캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:성신여자대학교 돈암캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1129000000"
+    ],
+    "path": "서울특별시 성북구 성신여자대학교 돈암캠퍼스",
+    "location": {
+      "lat": 37.5913559,
+      "lng": 127.0222074,
+      "address": "성신여자대학교, 보문로30다길, 동선동2가, 동선동, 성북구, 서울특별시, 02844, 대한민국",
+      "source": "https://www.openstreetmap.org/way/26323743"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "한양대학교 서울캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:한양대학교 서울캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1120000000"
+    ],
+    "path": "서울특별시 성동구 한양대학교 서울캠퍼스",
+    "location": {
+      "lat": 37.5569876,
+      "lng": 127.0470893,
+      "address": "한양대학교 서울캠퍼스, 222, 왕십리로, 사근동, 성동구, 서울특별시, 04763, 대한민국",
+      "source": "https://www.openstreetmap.org/way/187645257"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "한국외국어대학교 서울캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:한국외국어대학교 서울캠퍼스",
+    "provinceId": "11",
+    "districtIds": [
+      "1123000000"
+    ],
+    "path": "서울특별시 동대문구 한국외국어대학교 서울캠퍼스",
+    "location": {
+      "lat": 37.5970815,
+      "lng": 127.0587413,
+      "address": "한국외국어대학교 서울캠퍼스, 107, 이문로, 외대 모두의거리, 이문동, 이문2동, 동대문구, 서울특별시, 02450, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/7027282"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "외대앞역 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:11:외대앞역 일대",
+    "provinceId": "11",
+    "districtIds": [
+      "1123000000"
+    ],
+    "path": "서울특별시 동대문구 외대앞역 일대",
+    "location": {
+      "lat": 37.5953303,
+      "lng": 127.0630396,
+      "address": "외대앞역, 27, 휘경로, 이문동, 이문2동, 동대문구, 서울특별시, 02420, 대한민국",
+      "source": "https://www.openstreetmap.org/way/330258688"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "세종대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:세종대학교",
+    "provinceId": "11",
+    "districtIds": [
+      "1121500000"
+    ],
+    "path": "서울특별시 광진구 세종대학교",
+    "location": {
+      "lat": 37.550848,
+      "lng": 127.0746074,
+      "address": "세종대학교, 209, 능동로, 능동, 광진구, 서울특별시, 05006, 대한민국",
+      "source": "https://www.openstreetmap.org/way/965940829"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "숙명여자대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:11:숙명여자대학교",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 숙명여자대학교",
+    "location": {
+      "lat": 37.5442933,
+      "lng": 126.9652336,
+      "address": "숙명여자대학교, 효창원로86길, 청파동2가, 청파동, 용산구, 서울특별시, 04307, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/20613615"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "숙대입구역 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:11:숙대입구역 일대",
+    "provinceId": "11",
+    "districtIds": [
+      "1117000000"
+    ],
+    "path": "서울특별시 용산구 숙대입구역 일대",
+    "location": {
+      "lat": 37.545439,
+      "lng": 126.9704002,
+      "address": "청파동주민센터.숙대입구역, 청파로, 청파동1가, 청파동, 용산구, 서울특별시, 04334, 대한민국",
+      "source": "https://www.openstreetmap.org/node/357832279"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "인하대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:28:인하대학교",
+    "provinceId": "28",
+    "districtIds": [
+      "2817700000"
+    ],
+    "path": "인천광역시 미추홀구 인하대학교",
+    "location": {
+      "lat": 37.4494431,
+      "lng": 126.6534446,
+      "address": "인하대학교, 인하로77번길, 용현동, 용현1·4동, 미추홀구, 인천광역시, 22208, 대한민국",
+      "source": "https://www.openstreetmap.org/way/472447787"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "인하대 후문 상권",
+    "category": "university",
+    "aliases": [],
+    "id": "s:28:인하대 후문 상권",
+    "provinceId": "28",
+    "districtIds": [
+      "2817700000"
+    ],
+    "path": "인천광역시 미추홀구 인하대 후문 상권",
+    "location": {
+      "lat": 37.4513813,
+      "lng": 126.6561421,
+      "address": "인하대후문, 인하로, 용현동, 용현1·4동, 미추홀구, 인천광역시, 22208, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11379634817"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "인하대 정문 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:28:인하대 정문 일대",
+    "provinceId": "28",
+    "districtIds": [
+      "2817700000"
+    ],
+    "path": "인천광역시 미추홀구 인하대 정문 일대",
+    "location": {
+      "lat": 37.4477024,
+      "lng": 126.6531848,
+      "address": "인하대학교 정문, 소성로, 학익동, 용현1·4동, 미추홀구, 인천광역시, 22212, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4741793208"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "인하대역",
+    "category": "station",
+    "aliases": [],
+    "id": "s:28:인하대역",
+    "provinceId": "28",
+    "districtIds": [
+      "2817700000"
+    ],
+    "path": "인천광역시 미추홀구 인하대역",
+    "location": {
+      "lat": 37.4487537,
+      "lng": 126.6494585,
+      "address": "인하대역, 독배로317번길, 용현5동, 미추홀구, 인천광역시, 22188, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11379634823"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "주안역 일대",
+    "category": "station",
+    "aliases": [],
+    "id": "s:28:주안역 일대",
+    "provinceId": "28",
+    "districtIds": [
+      "2817700000"
+    ],
+    "path": "인천광역시 미추홀구 주안역 일대",
+    "location": {
+      "lat": 37.4633304,
+      "lng": 126.6804067,
+      "address": "주안역, 미추홀대로, 주안동, 주안1동, 미추홀구, 인천광역시, 22139, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4857888757"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "트리플스트리트",
+    "category": "shopping",
+    "aliases": [],
+    "id": "s:28:트리플스트리트",
+    "provinceId": "28",
+    "districtIds": [
+      "2818500000"
+    ],
+    "path": "인천광역시 연수구 트리플스트리트",
+    "location": {
+      "lat": 37.3799376,
+      "lng": 126.6606993,
+      "address": "송도 트리플스트리트, 송도3동, 연수구, 인천광역시, 대한민국",
+      "source": "https://www.openstreetmap.org/way/624085480"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "인천대학교 송도캠퍼스 일대",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:28:인천대학교 송도캠퍼스 일대",
+    "provinceId": "28",
+    "districtIds": [
+      "2818500000"
+    ],
+    "path": "인천광역시 연수구 인천대학교 송도캠퍼스 일대",
+    "location": {
+      "lat": 37.3751446,
+      "lng": 126.6323415,
+      "address": "인천대학교 송도캠퍼스, 119, 아카데미로, 송도동, 송도1동, 연수구, 인천광역시, 22012, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/19249532"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "부평 문화의거리",
+    "category": "commercial",
+    "aliases": [],
+    "id": "s:28:부평 문화의거리",
+    "provinceId": "28",
+    "districtIds": [
+      "2823700000"
+    ],
+    "path": "인천광역시 부평구 부평 문화의거리",
+    "location": {
+      "lat": 37.4929144,
+      "lng": 126.7240696,
+      "address": "부평문화의거리, 부평동, 부평구, 인천광역시, 21394, 대한민국",
+      "source": "https://www.openstreetmap.org/way/457217779"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "부산대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:26:부산대학교",
+    "provinceId": "26",
+    "districtIds": [
+      "2641000000"
+    ],
+    "path": "부산광역시 금정구 부산대학교",
+    "location": {
+      "lat": 35.2343498,
+      "lng": 129.0784068,
+      "address": "부산대학교, 금샘로18번길, 장전동, 장전2동, 금정구, 부산광역시, 46296, 대한민국",
+      "source": "https://www.openstreetmap.org/way/472067907"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "부산대역 대학가",
+    "category": "university",
+    "aliases": [],
+    "id": "s:26:부산대역 대학가",
+    "provinceId": "26",
+    "districtIds": [
+      "2641000000"
+    ],
+    "path": "부산광역시 금정구 부산대역 대학가",
+    "location": {
+      "lat": 35.2296377,
+      "lng": 129.0893608,
+      "address": "부산대, 장전온천천로, 장전3동, 금정구, 부산광역시, 46292, 대한민국",
+      "source": "https://www.openstreetmap.org/node/5584656519"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경성대·부경대 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:26:경성대·부경대 일대",
+    "provinceId": "26",
+    "districtIds": [
+      "2629000000"
+    ],
+    "path": "부산광역시 남구 경성대·부경대 일대",
+    "location": {
+      "lat": 35.1375394,
+      "lng": 129.1005235,
+      "address": "경성대·부경대, 수영로, 대연3동, 남구, 부산광역시, 48509, 대한민국",
+      "source": "https://www.openstreetmap.org/node/14102501758"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "부경대학교 대연캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:26:부경대학교 대연캠퍼스",
+    "provinceId": "26",
+    "districtIds": [
+      "2629000000"
+    ],
+    "path": "부산광역시 남구 부경대학교 대연캠퍼스",
+    "location": {
+      "lat": 35.1342725,
+      "lng": 129.1052466,
+      "address": "부경대학교 대연캠퍼스, 45, 용소로, 대연3동, 남구, 부산광역시, 48513, 대한민국",
+      "source": "https://www.openstreetmap.org/way/480816518"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "냉정역 대학가",
+    "category": "university",
+    "aliases": [],
+    "id": "s:26:냉정역 대학가",
+    "provinceId": "26",
+    "districtIds": [
+      "2653000000"
+    ],
+    "path": "부산광역시 사상구 냉정역 대학가",
+    "location": {
+      "lat": 35.1512666,
+      "lng": 129.0124165,
+      "address": "냉정, 가야대로, 주례2동, 사상구, 부산광역시, 47007, 대한민국",
+      "source": "https://www.openstreetmap.org/node/14102501783"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "충남대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:30:충남대학교",
+    "provinceId": "30",
+    "districtIds": [
+      "3020000000"
+    ],
+    "path": "대전광역시 유성구 충남대학교",
+    "location": {
+      "lat": 36.369879,
+      "lng": 127.3448303,
+      "address": "충남대학교, 대학로, 궁동, 온천2동, 유성구, 대전광역시, 34183, 대한민국",
+      "source": "https://www.openstreetmap.org/way/62102265"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "궁동 대학가",
+    "category": "university",
+    "aliases": [],
+    "id": "s:30:궁동 대학가",
+    "provinceId": "30",
+    "districtIds": [
+      "3020000000"
+    ],
+    "path": "대전광역시 유성구 궁동 대학가",
+    "location": {
+      "lat": 36.3665161,
+      "lng": 127.3462828,
+      "address": "궁동, 온천2동, 유성구, 대전광역시, 34137, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415161418"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "KAIST 본원 일대",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:30:KAIST 본원 일대",
+    "provinceId": "30",
+    "districtIds": [
+      "3020000000"
+    ],
+    "path": "대전광역시 유성구 KAIST 본원 일대",
+    "location": {
+      "lat": 36.3703054,
+      "lng": 127.3620118,
+      "address": "한국과학기술원, 291, 대학로, 구성동, 온천2동, 유성구, 대전광역시, 34141, 대한민국",
+      "source": "https://www.openstreetmap.org/way/73679850"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경북대학교 대구캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:27:경북대학교 대구캠퍼스",
+    "provinceId": "27",
+    "districtIds": [
+      "2723000000"
+    ],
+    "path": "대구광역시 북구 경북대학교 대구캠퍼스",
+    "location": {
+      "lat": 35.8905697,
+      "lng": 128.6108553,
+      "address": "경북대학교, 80, 대학로, 산격3동, 북구, 대구광역시, 41566, 대한민국",
+      "source": "https://www.openstreetmap.org/way/224705986"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경북대 북문 대학가",
+    "category": "university",
+    "aliases": [],
+    "id": "s:27:경북대 북문 대학가",
+    "provinceId": "27",
+    "districtIds": [
+      "2723000000"
+    ],
+    "path": "대구광역시 북구 경북대 북문 대학가",
+    "location": {
+      "lat": 35.8924424,
+      "lng": 128.6092485,
+      "address": "경북대학교북문, 대학로, 산격3동, 북구, 대구광역시, 41566, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4631924173"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "계명대역 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:27:계명대역 일대",
+    "provinceId": "27",
+    "districtIds": [
+      "2729000000"
+    ],
+    "path": "대구광역시 달서구 계명대역 일대",
+    "location": {
+      "lat": 35.8517907,
+      "lng": 128.490535,
+      "address": "계명대역(1번출구), 달구벌대로, 파호동, 신당동, 달서구, 대구광역시, 42602, 대한민국",
+      "source": "https://www.openstreetmap.org/node/9357734514"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "전남대학교 광주캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:29:전남대학교 광주캠퍼스",
+    "provinceId": "29",
+    "districtIds": [
+      "1230000000"
+    ],
+    "path": "전남광주통합특별시 북구 전남대학교 광주캠퍼스",
+    "location": {
+      "lat": 35.1769099,
+      "lng": 126.9068927,
+      "address": "전남대학교, 77, 용봉로, 신안동, 북구, 광주, 전남광주통합특별시, 61186, 대한민국",
+      "source": "https://www.openstreetmap.org/way/105125653"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "전남대 후문 대학가",
+    "category": "university",
+    "aliases": [],
+    "id": "s:29:전남대 후문 대학가",
+    "provinceId": "29",
+    "districtIds": [
+      "1230000000"
+    ],
+    "path": "전남광주통합특별시 북구 전남대 후문 대학가",
+    "location": {
+      "lat": 35.1762536,
+      "lng": 126.9123459,
+      "address": "전남대후문, 99, 우치로, 용봉동, 북구, 광주, 전남광주통합특별시, 61186, 대한민국",
+      "source": "https://www.openstreetmap.org/node/10834110632"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "조선대학교 일대",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:29:조선대학교 일대",
+    "provinceId": "29",
+    "districtIds": [
+      "1221000000"
+    ],
+    "path": "전남광주통합특별시 동구 조선대학교 일대",
+    "location": {
+      "lat": 35.1412134,
+      "lng": 126.9303491,
+      "address": "조선대학교, 지호로100번길, 지산동, 동구, 광주, 전남광주통합특별시, 61444, 대한민국",
+      "source": "https://www.openstreetmap.org/way/468689587"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "전북대학교 전주캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:52:전북대학교 전주캠퍼스",
+    "provinceId": "52",
+    "districtIds": [
+      "5211300000"
+    ],
+    "path": "전북특별자치도 전주시 덕진구 전북대학교 전주캠퍼스",
+    "location": {
+      "lat": 35.8466752,
+      "lng": 127.1337209,
+      "address": "전북대학교 전주캠퍼스, 567, 백제대로, 인후동2가, 덕진구, 전주시, 전북특별자치도, 54896, 대한민국",
+      "source": "https://www.openstreetmap.org/way/35424732"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "전북대 대학로",
+    "category": "university",
+    "aliases": [],
+    "id": "s:52:전북대 대학로",
+    "provinceId": "52",
+    "districtIds": [
+      "5211300000"
+    ],
+    "path": "전북특별자치도 전주시 덕진구 전북대 대학로",
+    "location": {
+      "lat": 35.8424883,
+      "lng": 127.1276845,
+      "address": "명륜3길, 덕진동1가, 덕진구, 전주시, 전북특별자치도, 54893, 대한민국",
+      "source": "https://www.openstreetmap.org/way/124702971"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "강원대학교 춘천캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:51:강원대학교 춘천캠퍼스",
+    "provinceId": "51",
+    "districtIds": [
+      "5111000000"
+    ],
+    "path": "강원특별자치도 춘천시 강원대학교 춘천캠퍼스",
+    "location": {
+      "lat": 37.8672582,
+      "lng": 127.7447487,
+      "address": "강원대학교, 후석로186번길, 석사동, 춘천시, 강원특별자치도, 24320, 대한민국",
+      "source": "https://www.openstreetmap.org/way/300174122"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "강원대 후문 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:51:강원대 후문 일대",
+    "provinceId": "51",
+    "districtIds": [
+      "5111000000"
+    ],
+    "path": "강원특별자치도 춘천시 강원대 후문 일대",
+    "location": {
+      "lat": 37.87289,
+      "lng": 127.74425,
+      "address": "강원대후문, 서부대성로, 효자동, 효자2동, 춘천시, 강원특별자치도, 24341, 대한민국",
+      "source": "https://www.openstreetmap.org/node/8446124582"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "아주대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:41:아주대학교",
+    "provinceId": "41",
+    "districtIds": [
+      "4111700000"
+    ],
+    "path": "경기도 수원시 영통구 아주대학교",
+    "location": {
+      "lat": 37.2830024,
+      "lng": 127.0453782,
+      "address": "아주대학교, 206, 월드컵로, 원천동, 영통구, 수원시, 경기도, 16499, 대한민국",
+      "source": "https://www.openstreetmap.org/way/477523965"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "아주대 삼거리 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:41:아주대 삼거리 일대",
+    "provinceId": "41",
+    "districtIds": [
+      "4111700000"
+    ],
+    "path": "경기도 수원시 영통구 아주대 삼거리 일대",
+    "location": {
+      "lat": 37.2743238,
+      "lng": 127.0447304,
+      "address": "아주대삼거리, 중부대로, 영통구, 수원시, 경기도, 16503, 대한민국",
+      "source": "https://www.openstreetmap.org/node/9351699688"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "성균관대역 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:41:성균관대역 일대",
+    "provinceId": "41",
+    "districtIds": [
+      "4111100000"
+    ],
+    "path": "경기도 수원시 장안구 성균관대역 일대",
+    "location": {
+      "lat": 37.2997884,
+      "lng": 126.9728832,
+      "address": "성균관대역, 서부로, 율전동, 장안구, 수원시, 경기도, 16360, 대한민국",
+      "source": "https://www.openstreetmap.org/node/9419661130"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "단국대학교 죽전캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:41:단국대학교 죽전캠퍼스",
+    "provinceId": "41",
+    "districtIds": [
+      "4146500000"
+    ],
+    "path": "경기도 용인시 수지구 단국대학교 죽전캠퍼스",
+    "location": {
+      "lat": 37.319288,
+      "lng": 127.1289665,
+      "address": "단국대학교 죽전캠퍼스, 152, 죽전로, 죽전동, 신봉동, 수지구, 용인시, 경기도, 16890, 대한민국",
+      "source": "https://www.openstreetmap.org/way/757042589"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "한양대학교 ERICA캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:41:한양대학교 ERICA캠퍼스",
+    "provinceId": "41",
+    "districtIds": [
+      "4127100000"
+    ],
+    "path": "경기도 안산시 상록구 한양대학교 ERICA캠퍼스",
+    "location": {
+      "lat": 37.2966682,
+      "lng": 126.8350067,
+      "address": "한양대학교 ERICA캠퍼스, 55, 한양대학로, 상록구, 안산시, 경기도, 15588, 대한민국",
+      "source": "https://www.openstreetmap.org/way/367535809"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "회룡역 일대",
+    "category": "station",
+    "aliases": [],
+    "id": "s:41:회룡역 일대",
+    "provinceId": "41",
+    "districtIds": [
+      "4115000000"
+    ],
+    "path": "경기도 의정부시 회룡역 일대",
+    "location": {
+      "lat": 37.7249474,
+      "lng": 127.0473751,
+      "address": "회룡, 회룡천 자전거길, 호원2동, 의정부시, 경기도, 11637, 대한민국",
+      "source": "https://www.openstreetmap.org/node/355172790"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "충북대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:43:충북대학교",
+    "provinceId": "43",
+    "districtIds": [
+      "4311200000"
+    ],
+    "path": "충청북도 청주시 서원구 충북대학교",
+    "location": {
+      "lat": 36.6281688,
+      "lng": 127.4538403,
+      "address": "충북대학교, 1, 충대로, 흥덕구, 청주시, 충청북도, 28644, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/6705106"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "충북대 중문 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:43:충북대 중문 일대",
+    "provinceId": "43",
+    "districtIds": [
+      "4311200000"
+    ],
+    "path": "충청북도 청주시 서원구 충북대 중문 일대",
+    "location": {
+      "lat": 36.6342422,
+      "lng": 127.4647505,
+      "address": "내수동로, 사창동, 서원구, 청주시, 충청북도, 28647, 대한민국",
+      "source": "https://www.openstreetmap.org/way/293210991"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "단국대학교 천안캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:44:단국대학교 천안캠퍼스",
+    "provinceId": "44",
+    "districtIds": [
+      "4413100000"
+    ],
+    "path": "충청남도 천안시 동남구 단국대학교 천안캠퍼스",
+    "location": {
+      "lat": 36.8368334,
+      "lng": 127.1682297,
+      "address": "단국대학교 천안캠퍼스, 119, 단대로, 동남구, 천안시, 충청남도, 31116, 대한민국",
+      "source": "https://www.openstreetmap.org/way/171904156"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "순천향대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:44:순천향대학교",
+    "provinceId": "44",
+    "districtIds": [
+      "4420000000"
+    ],
+    "path": "충청남도 아산시 순천향대학교",
+    "location": {
+      "lat": 36.769988,
+      "lng": 126.9316341,
+      "address": "순천향대학교, 순천향로, 읍내리, 아산시, 충청남도, 31537, 대한민국",
+      "source": "https://www.openstreetmap.org/way/415747260"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "국립순천대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:46:국립순천대학교",
+    "provinceId": "46",
+    "districtIds": [
+      "1215000000"
+    ],
+    "path": "전남광주통합특별시 순천시 국립순천대학교",
+    "location": {
+      "lat": 34.9681989,
+      "lng": 127.4804636,
+      "address": "국립순천대학교, 255, 중앙로, 매곡동, 옥천동, 순천시, 전남광주통합특별시, 57922, 대한민국",
+      "source": "https://www.openstreetmap.org/way/366373736"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "국립목포대학교 도림캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:46:국립목포대학교 도림캠퍼스",
+    "provinceId": "46",
+    "districtIds": [
+      "1281000000"
+    ],
+    "path": "전남광주통합특별시 무안군 국립목포대학교 도림캠퍼스",
+    "location": {
+      "lat": 34.9103033,
+      "lng": 126.437759,
+      "address": "목포대학교, 승달산길, 도림리, 청계면, 무안군, 전남광주통합특별시, 58552, 대한민국",
+      "source": "https://www.openstreetmap.org/way/469063075"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "영남대역 일대",
+    "category": "university",
+    "aliases": [],
+    "id": "s:47:영남대역 일대",
+    "provinceId": "47",
+    "districtIds": [
+      "4729000000"
+    ],
+    "path": "경상북도 경산시 영남대역 일대",
+    "location": {
+      "lat": 35.8365895,
+      "lng": 128.7535295,
+      "address": "영남대, 대학로, 대동, 북부동, 경산시, 경상북도, 38615, 대한민국",
+      "source": "https://www.openstreetmap.org/node/13505872502"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "영남대학교 경산캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:47:영남대학교 경산캠퍼스",
+    "provinceId": "47",
+    "districtIds": [
+      "4729000000"
+    ],
+    "path": "경상북도 경산시 영남대학교 경산캠퍼스",
+    "location": {
+      "lat": 35.828022,
+      "lng": 128.7572223,
+      "address": "영남대학교, 280, 대학로, 대동, 북부동, 경산시, 경상북도, 38541, 대한민국",
+      "source": "https://www.openstreetmap.org/way/152997010"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "포항공과대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:47:포항공과대학교",
+    "provinceId": "47",
+    "districtIds": [
+      "4711100000"
+    ],
+    "path": "경상북도 포항시 남구 포항공과대학교",
+    "location": {
+      "lat": 36.0180795,
+      "lng": 129.3208556,
+      "address": "포항공과대학교, 77, 청암로, 효자동, 효곡동, 남구, 포항시, 경상북도, 37673, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/9886918"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "경상국립대학교 가좌캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:48:경상국립대학교 가좌캠퍼스",
+    "provinceId": "48",
+    "districtIds": [
+      "4817000000"
+    ],
+    "path": "경상남도 진주시 경상국립대학교 가좌캠퍼스",
+    "location": {
+      "lat": 35.1546243,
+      "lng": 128.0994027,
+      "address": "경상국립대학교 가좌캠퍼스, 가좌길29번길, 가좌동, 가호동, 진주시, 경상남도, 52821, 대한민국",
+      "source": "https://www.openstreetmap.org/way/555195681"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "가좌동 대학가",
+    "category": "university",
+    "aliases": [],
+    "id": "s:48:가좌동 대학가",
+    "provinceId": "48",
+    "districtIds": [
+      "4817000000"
+    ],
+    "path": "경상남도 진주시 가좌동 대학가",
+    "location": {
+      "lat": 35.1549219,
+      "lng": 128.1100179,
+      "address": "가좌동, 가호동, 진주시, 경상남도, 52826, 대한민국",
+      "source": "https://www.openstreetmap.org/node/415145635"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "창원대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:48:창원대학교",
+    "provinceId": "48",
+    "districtIds": [
+      "4812100000"
+    ],
+    "path": "경상남도 창원시 의창구 창원대학교",
+    "location": {
+      "lat": 35.2448472,
+      "lng": 128.6951022,
+      "address": "창원대학교, 용지로, 중앙동, 의창구, 창원시, 경상남도, 51444, 대한민국",
+      "source": "https://www.openstreetmap.org/way/469495510"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "제주대학교 아라캠퍼스",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:50:제주대학교 아라캠퍼스",
+    "provinceId": "50",
+    "districtIds": [
+      "5011000000"
+    ],
+    "path": "제주특별자치도 제주시 제주대학교 아라캠퍼스",
+    "location": {
+      "lat": 33.4551212,
+      "lng": 126.5619516,
+      "address": "제주대학교 아라캠퍼스, 제주대학로, 아라동, 제주시, 제주특별자치도, 63243, 대한민국",
+      "source": "https://www.openstreetmap.org/way/369649909"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "제주시청 대학로",
+    "category": "university",
+    "aliases": [],
+    "id": "s:50:제주시청 대학로",
+    "provinceId": "50",
+    "districtIds": [
+      "5011000000"
+    ],
+    "path": "제주특별자치도 제주시 제주시청 대학로",
+    "location": {
+      "lat": 33.500031,
+      "lng": 126.525892,
+      "address": "제주시청(대학로/시티투어), 서광로, 이도이동, 이도2동, 제주시, 제주특별자치도, 63199, 대한민국",
+      "source": "https://www.openstreetmap.org/node/11338570477"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "울산대학교",
+    "category": "campus",
+    "aliases": [],
+    "id": "s:31:울산대학교",
+    "provinceId": "31",
+    "districtIds": [
+      "3114000000"
+    ],
+    "path": "울산광역시 남구 울산대학교",
+    "location": {
+      "lat": 35.5442371,
+      "lng": 129.2567134,
+      "address": "울산대학교, 옥현로, 무거동, 남구, 울산광역시, 44611, 대한민국",
+      "source": "https://www.openstreetmap.org/relation/9762419"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "무거동 대학로",
+    "category": "university",
+    "aliases": [],
+    "id": "s:31:무거동 대학로",
+    "provinceId": "31",
+    "districtIds": [
+      "3114000000"
+    ],
+    "path": "울산광역시 남구 무거동 대학로",
+    "location": {
+      "lat": 35.5378219,
+      "lng": 129.2553058,
+      "address": "대학로, 무거동, 남구, 울산광역시, 44611, 대한민국",
+      "source": "https://www.openstreetmap.org/way/1091624230"
+    },
+    "kind": "spot"
+  },
+  {
+    "name": "조치원역 일대",
+    "category": "station",
+    "aliases": [],
+    "id": "s:36:조치원역 일대",
+    "provinceId": "36",
+    "districtIds": [
+      "3611000000"
+    ],
+    "path": "세종특별자치시 조치원역 일대",
+    "location": {
+      "lat": 36.6010004,
+      "lng": 127.2971588,
+      "address": "조치원역, Jochiwon-ro, 조치원읍, 세종특별자치시, 30028, 대한민국",
+      "source": "https://www.openstreetmap.org/node/4656657989"
+    },
+    "kind": "spot"
+  }
+]

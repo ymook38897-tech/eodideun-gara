@@ -7,5 +7,32 @@
   "status": "존재",
   "downloaded": "2026-10-10",
   "leafCandidates": 256,
-  "fileModified": "2026-10-01T09:06:00+09:00"
+  "fileModified": "2026-10-01T09:06:00+09:00",
+  "boundaries": {
+    "date": "2026-07-01",
+    "origin": "https://sgis.kostat.go.kr",
+    "derived": "https://github.com/vuski/admdongkor/tree/master/ver20260701",
+    "simplification": "https://github.com/DevMinGeonPark/mapcn-kr/blob/main/data/sgg.json",
+    "sourceGitBlob": "67aea5ecdb90da53f4538a469d762b61372a6eed",
+    "sourceSHA256": "eaab38fdfe5fd56678deb376a07a8bcc909264f4f1900cfb6e9dae6c8fd13087",
+    "sourceLicense": "KOGL Type 1; derived CC BY 4.0",
+    "modifications": "Five-digit sgg codes mapped to current 10-digit official district IDs; 256 district polygons dissolved into 17 user-familiar selection groups. Coordinates remain EPSG:4326; islands are not relocated.",
+    "districtCount": 256,
+    "groupCount": 17,
+    "districtFileSHA256": "8cf7ea1ea54eb669232f0c6deb5d7cd4c92be251a304ce03272fd3b4eea0117e",
+    "provinceFileSHA256": "0c4e2bb8c48a7f307e6511e79bfa72aaafc78d4d47f45bb7ffb2abc26054fd61"
+  },
+  "places": {
+    "checked": "2026-10-10",
+    "source": "https://www.openstreetmap.org/copyright",
+    "geocoder": "https://nominatim.openstreetmap.org",
+    "license": "ODbL-1.0",
+    "count": 213,
+    "located": 213,
+    "campuses": 38,
+    "universityAreas": 32,
+    "verification": "Every representative coordinate tested against associated district polygons. Campus and nearby commercial areas are separate candidates. Incorrect same-name geocoding hits were manually rejected.",
+    "publicData": "data/places.json",
+    "sha256": "9abcbac9c7ec233378c7556efce41c1252c0261838afb19f825c9f983b7be67d"
+  }
 }
